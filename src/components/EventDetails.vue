@@ -9,11 +9,18 @@
         <strong>{{ endTime }}</strong>
       </time>
     </div>
+
+    <event-tasks :tasks="tasks" />
   </div>
 </template>
 
 <script>
+import EventTasks from "../components/EventTasks";
+
 export default {
+  components: {
+    EventTasks
+  },
   props: {
     name: {
       type: String,
@@ -22,6 +29,10 @@ export default {
     endTime: {
       type: String,
       default: ""
+    },
+    tasks: {
+      type: Array,
+      default: () => []
     }
   }
 };

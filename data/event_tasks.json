@@ -1,0 +1,151 @@
+[{
+  "event": "Disavowed",
+  "tasks": [{
+    "description": "Get 3 kills in BR using SMGs",
+    "target": 3
+  }, {
+    "description": "Get 10 kills in BR using ARs",
+    "target": 10
+  }, {
+    "description": "Get 15 kills in Battle Royale",
+    "target": 15
+  }, {
+    "description": "Get 35 kills in Multiplayer using SMGs",
+    "target": 35
+  }, {
+    "description": "Play 5 Ranked Multiplayer matches",
+    "target": 5
+  }, {
+    "description": "Play 15 Ranked Multiplayer matches",
+    "target": 15
+  }, {
+    "description": "Get 65 kills in Ranked Multiplayer matches",
+    "target": 65
+  }, {
+    "description": "Finish twice in the top 15 in BR",
+    "target": 2
+  }, {
+    "description": "Earn MVP twice in Multiplayer matches",
+    "target": 2
+  }, {
+    "description": "Slide in BR",
+    "target": 3
+  }, {
+    "description": "Use class skills 3 times in BR",
+    "target": 3
+  }, {
+    "description": "Deal 980 damage in BR",
+    "target": 980
+  }, {
+    "description": "Survive for 48 minutes in BR",
+    "target": 2880
+  }, {
+    "description": "Win 7 Ranked Multiplayer matches",
+    "target": 7
+  }]
+}, {
+  "event": "Disavowed Part B",
+  "tasks": [{
+    "description": "Get 1500 kills in Multiplayer matches",
+    "target": 1500
+  }, {
+    "description": "Get 3000 kills in Multiplayer matches",
+    "target": 3000
+  }, {
+    "description": "Play 30 Multiplayer matches",
+    "target": 30
+  }, {
+    "description": "Play 65 Multiplayer matches",
+    "target": 65
+  }, {
+    "description": "Deal 1800 damage in BR matches",
+    "target": 1800
+  }, {
+    "description": "Survive for 95 minutes in Battle Royale",
+    "target": 5700
+  }, {
+    "description": "Win 3 Ranked Multiplayer matches",
+    "target": 3
+  }, {
+    "description": "Win 7 Ranked Multiplayer matches",
+    "target": 7
+  }]
+}, {
+  "event": "Heavy Shot",
+  "tasks": [{
+    "description": "Get 10 kills in Frontline using Hunter Killer Drone",
+    "target": 10
+  }, {
+    "description": "Get 15 kills in TDM using Sparrow",
+    "target": 15
+  }, {
+    "description": "Play 5 Multiplayer matches with friends",
+    "target": 5
+  }, {
+    "description": "Play 15 Multiplayer matches with friends",
+    "target": 15
+  }, {
+    "description": "Play 10 Frontline matches",
+    "target": 10
+  }, {
+    "description": "Play 30 Frontline matches",
+    "target": 30
+  }, {
+    "description": "Play 10 Domination matches",
+    "target": 10
+  }, {
+    "description": "Play 30 Domination matches",
+    "target": 30
+  }, {
+    "description": "Play 30 Team Deathmatches",
+    "target": 30
+  }, {
+    "description": "Get first or MVP in 5 Multiplayer matches",
+    "target": 5
+  }, {
+    "description": "Occupy a point 15 times in Domination",
+    "target": 15
+  }]
+}, {
+  "event": "Weekly Challenge",
+  "tasks": [{
+    "description": "Play 3 Ranked Multiplayer matches",
+    "target": 3
+  }, {
+    "description": "Play 5 Ranked Multiplayer matches",
+    "target": 5
+  }, {
+    "description": "Open 3 weapon supply boxes in Battle Royale",
+    "target": 3
+  }, {
+    "description": "Get 3 kills in Ranked Multiplayer matches",
+    "target": 3
+  }, {
+    "description": "Get 5 kills in Ranked Multiplayer matches",
+    "target": 5
+  }, {
+    "description": "Get 20 kills in Multiplayer using a Pistol",
+    "target": 20
+  }, {
+    "description": "Get 40 kills in Multiplayer using a Pistol",
+    "target": 40
+  }]
+}, {
+  "event": "Trap Master Challenge",
+  "tasks": [{
+    "description": "Play 3 Battle Royale matches",
+    "target": 3
+  }, {
+    "description": "Play 5 Battle Royale matches",
+    "target": 5
+  }, {
+    "description": "Use the Electric Trip Wire twice in Battle Royale",
+    "target": 2
+  }, {
+    "description": "Use the Electric Trip Wire 4 times in Battle Royale",
+    "target": 4
+  }, {
+    "description": "Upgrade a Class in Battle Royale",
+    "target": 1
+  }]
+}]
