@@ -1,9 +1,17 @@
 <template>
-  <div></div>
+  <div>
+    <events-list />
+  </div>
 </template>
 
 <script>
-export default {};
+import EventsList from "../components/EventsList";
+
+export default {
+  components: {
+    EventsList
+  }
+};
 </script>
 
 <style scoped lang="scss"></style>
