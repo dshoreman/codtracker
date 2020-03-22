@@ -15,7 +15,7 @@
     </div>
 
     <div class="card-body p-0">
-      <event-tasks :tasks="tasks" />
+      <event-tasks :event="id" :tasks="tasks" />
     </div>
   </div>
 </template>
@@ -28,6 +28,10 @@ export default {
     EventTasks
   },
   props: {
+    id: {
+      type: Number,
+      default: 0
+    },
     name: {
       type: String,
       default: ""

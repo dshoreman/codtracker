@@ -1,9 +1,15 @@
 <template>
   <div>
-    <button class="btn btn-xs btn-danger float-left" @click="current--">
+    <button
+      class="btn btn-xs btn-danger float-left"
+      @click="setProgress(current - 1)"
+    >
       -
     </button>
-    <button class="btn btn-xs btn-success float-right" @click="current++">
+    <button
+      class="btn btn-xs btn-success float-right"
+      @click="setProgress(current + 1)"
+    >
       +
     </button>
     <div class="progress">
@@ -36,6 +42,12 @@ export default {
     return {
       current: 0
     };
+  },
+  methods: {
+    setProgress(value) {
+      this.current = value;
+      this.$emit("changed", this.current);
+    }
   }
 };
 </script>

@@ -6,7 +6,10 @@
           {{ task.description }}
         </div>
         <div class="col-sm-6">
-          <task-progress :target="task.target" />
+          <task-progress
+            :target="task.target"
+            @changed="syncProgress(task.id, $event)"
+          />
         </div>
       </div>
     </div>
@@ -21,6 +24,10 @@ export default {
     TaskProgress
   },
   props: {
+    event: {
+      type: Number,
+      default: 0
+    },
     tasks: {
       type: Array,
       default: () => []
@@ -28,6 +35,19 @@ export default {
     endTime: {
       type: String,
       default: ""
+    }
+  },
+  data() {
+    return {
+      eventProgress: {}
+    };
+  },
+  methods: {
+    syncProgress(task, progress) {
+      this.eventProgress[task] = progress;
+
+      let json = JSON.stringify(this.eventProgress);
+      localStorage.setItem("ctEvent" + this.event, json);
     }
   }
 };

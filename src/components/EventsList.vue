@@ -2,6 +2,7 @@
   <div>
     <event-details
       v-for="ev in events"
+      :id="ev.id"
       :key="ev.id"
       :name="ev.name"
       :end-time="ev.end"
