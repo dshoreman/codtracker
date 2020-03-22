@@ -1,6 +1,6 @@
 <template>
   <div class="list-group list-group-flush">
-    <div v-for="task in tasks" :key="task.description" class="list-group-item">
+    <div v-for="task in tasks" :key="task.id" class="list-group-item">
       <div class="row">
         <div class="col-sm-6">
           {{ task.description }}

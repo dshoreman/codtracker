@@ -2,10 +2,10 @@
   <div>
     <event-details
       v-for="ev in events"
-      :key="ev.name"
+      :key="ev.id"
       :name="ev.name"
       :end-time="ev.end"
-      :tasks="findTasks(ev.name)"
+      :tasks="findTasks(ev.id)"
     />
   </div>
 </template>
@@ -25,8 +25,8 @@ export default {
     };
   },
   methods: {
-    findTasks: name => {
-      let event = tasksJson.find(task => task.event == name);
+    findTasks: id => {
+      let event = tasksJson.find(task => task.event == id);
 
       return event ? event.tasks : [];
     }
