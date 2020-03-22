@@ -68,13 +68,6 @@ export default {
 </script>
 
 <style scoped type="sass">
-.btn-group-xs > .btn,
-.btn-xs {
-  padding: 0.47rem 0.55rem;
-  font-size: 0.875rem;
-  line-height: 0.5;
-  border-radius: 0.2rem;
-}
 .progress {
   height: 24px;
 }

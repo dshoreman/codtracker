@@ -12,7 +12,13 @@
           </small>
         </div>
         <div class="col-sm-6 text-right">
-          <h4>Completed {{ completed }} of {{ tasks.length }}</h4>
+          <h6>Completed {{ completed }} of {{ tasks.length }}</h6>
+          <button
+            class="btn btn-xs btn-outline-danger float-right"
+            @click.stop="resetProgress"
+          >
+            Reset
+          </button>
         </div>
       </div>
     </div>
@@ -107,6 +113,16 @@ export default {
     }
   },
   methods: {
+    resetProgress() {
+      let msg = "Are you sure? All progress in " + this.name + " will be lost!";
+
+      if (!confirm(msg)) {
+        return;
+      }
+
+      this.eventProgress = {};
+      localStorage.setItem("ctEvent" + this.id, "{}");
+    },
     syncProgress(task, progress) {
       this.eventProgress[task] = progress;
 
@@ -117,6 +133,15 @@ export default {
 };
 </script>
 
+<style type="sass">
+.btn-group-xs > .btn,
+.btn-xs {
+  padding: 0.47rem 0.55rem;
+  font-size: 0.875rem;
+  line-height: 0.5;
+  border-radius: 0.2rem;
+}
+</style>
 <style scoped type="sass">
 .progress {
   height: 4px;
