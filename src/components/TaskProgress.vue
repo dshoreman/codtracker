@@ -25,7 +25,9 @@
           {{ current }} of {{ target }}
         </span>
       </div>
-      <span v-if="current / target < 0.5">{{ current }} of {{ target }}</span>
+      <span v-if="current / target < 0.5" class="outer">
+        {{ current }} of {{ target }}
+      </span>
     </div>
   </div>
 </template>
@@ -48,9 +50,16 @@ export default {
 <style scoped type="sass">
 .btn-group-xs > .btn,
 .btn-xs {
-  padding: 0.25rem 0.4rem;
+  padding: 0.47rem 0.55rem;
   font-size: 0.875rem;
   line-height: 0.5;
   border-radius: 0.2rem;
+}
+.progress {
+  height: 24px;
+}
+span.outer {
+  margin-left: 5px;
+  margin-top: 2px;
 }
 </style>

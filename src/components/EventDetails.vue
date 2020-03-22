@@ -1,5 +1,5 @@
 <template>
-  <div class="card mb-3">
+  <div class="card">
     <div class="card-header">
       <div class="row">
         <div class="col-sm-6">
@@ -15,7 +15,10 @@
     </div>
 
     <div class="card-body p-0">
-      <event-tasks :event="id" :tasks="tasks" />
+      <event-tasks v-if="tasks.length" :event="id" :tasks="tasks" />
+      <p v-else class="text-center pt-3">
+        No tasks available for {{ name }} at this time.
+      </p>
     </div>
   </div>
 </template>
