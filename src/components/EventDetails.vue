@@ -3,16 +3,21 @@
     <div class="card-header" @click="visible = !visible">
       <div class="row">
         <div class="col-sm-6">
-          <strong>{{ name }} </strong>
+          <h5 class="mb-0">{{ name }}</h5>
+          <small>
+            ending on
+            <time :datetime="endTime">
+              <strong>{{ endTime }}</strong>
+            </time>
+          </small>
         </div>
         <div class="col-sm-6 text-right">
-          ending on
-          <time :datetime="endTime">
-            <strong>{{ endTime }}</strong>
-          </time>
+          <h4>Completed {{ completed }} of {{ tasks.length }}</h4>
         </div>
       </div>
     </div>
+
+    <event-progress :current="combinedProgress" :max="totalProgress" />
 
     <div v-show="visible" class="card-body p-0">
       <div v-if="tasks.length" class="list-group list-group-flush">
@@ -39,10 +44,12 @@
 </template>
 
 <script>
+import EventProgress from "./EventProgress";
 import TaskProgress from "./TaskProgress";
 
 export default {
   components: {
+    EventProgress,
     TaskProgress
   },
   props: {
@@ -69,6 +76,29 @@ export default {
       visible: true
     };
   },
+  computed: {
+    combinedProgress() {
+      let progress = Object.values(this.eventProgress);
+
+      return progress.length ? progress.reduce((a, b) => a + b) : 0;
+    },
+    completed() {
+      let completed = 0;
+      Object.entries(this.eventProgress).forEach(([task, progress]) => {
+        let t = this.tasks.find(t => t.id == task);
+
+        if (t && t.target == progress) {
+          completed++;
+        }
+      });
+      return completed;
+    },
+    totalProgress() {
+      let counts = this.tasks.map(task => task.target);
+
+      return counts.length ? counts.reduce((a, b) => a + b) : 0;
+    }
+  },
   mounted() {
     let data = localStorage.getItem("ctEvent" + this.id);
 
@@ -86,3 +116,9 @@ export default {
   }
 };
 </script>
+
+<style scoped type="sass">
+.progress {
+  height: 4px;
+}
+</style>

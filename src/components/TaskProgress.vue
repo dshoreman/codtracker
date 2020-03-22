@@ -1,20 +1,20 @@
 <template>
   <div>
     <button
-      class="btn btn-xs btn-danger float-left"
+      class="btn btn-xs btn-light float-left"
       @click="$emit('update:current', current - 1)"
     >
       -
     </button>
     <button
-      class="btn btn-xs btn-success float-right"
+      class="btn btn-xs btn-light float-right"
       @click="$emit('update:current', current + 1)"
     >
       +
     </button>
     <div class="progress">
       <div
-        class="progress-bar"
+        class="progress-bar bg-secondary"
         role="progressbar"
         :style="'width: ' + (current / target) * 100 + '%'"
         :aria-valuenow="current"
