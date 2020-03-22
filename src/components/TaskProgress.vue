@@ -2,13 +2,13 @@
   <div>
     <button
       class="btn btn-xs btn-danger float-left"
-      @click="setProgress(current - 1)"
+      @click="$emit('update:current', current - 1)"
     >
       -
     </button>
     <button
       class="btn btn-xs btn-success float-right"
-      @click="setProgress(current + 1)"
+      @click="$emit('update:current', current + 1)"
     >
       +
     </button>
@@ -33,20 +33,13 @@
 <script>
 export default {
   props: {
+    current: {
+      type: Number,
+      default: 0
+    },
     target: {
       type: Number,
       default: 0
-    }
-  },
-  data() {
-    return {
-      current: 0
-    };
-  },
-  methods: {
-    setProgress(value) {
-      this.current = value;
-      this.$emit("changed", this.current);
     }
   }
 };

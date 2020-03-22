@@ -8,7 +8,8 @@
         <div class="col-sm-6">
           <task-progress
             :target="task.target"
-            @changed="syncProgress(task.id, $event)"
+            :current.sync="eventProgress[task.id]"
+            @update:current="syncProgress(task.id, $event)"
           />
         </div>
       </div>
@@ -41,6 +42,13 @@ export default {
     return {
       eventProgress: {}
     };
+  },
+  mounted() {
+    let data = localStorage.getItem("ctEvent" + this.event);
+
+    if (data) {
+      this.eventProgress = JSON.parse(data);
+    }
   },
   methods: {
     syncProgress(task, progress) {
