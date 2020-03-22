@@ -21,52 +21,34 @@
         :aria-valuemax="target"
         aria-valuemin="0"
       >
-        <template v-if="current / target >= 0.5">
-          <span
-            v-if="readonly"
-            @click="
-              readonly = false;
-              $nextTick(() => $refs.inner.focus());
-            "
-          >
-            {{ current }} of {{ target }}
-          </span>
-          <input
-            v-else
-            ref="inner"
-            type="number"
-            :value="current"
-            class="inner form-control-sm"
-            @keyup.enter="edit"
-          />
-        </template>
-      </div>
-      <template v-if="current / target < 0.5">
-        <span
-          v-if="readonly"
-          class="outer"
-          @click="
-            readonly = false;
-            $nextTick(() => $refs.outer.focus());
-          "
-        >
-          {{ current }} of {{ target }}
-        </span>
-        <input
-          v-else
-          ref="outer"
-          type="number"
-          :value="current"
-          class="form-control-sm"
-          @keyup.enter="edit"
+        <progress-value
+          v-if="current / target >= 0.5"
+          :current="current"
+          :target="target"
+          position="inner"
+          :readonly.sync="readonly"
+          @update:current="$emit('update:current', $event)"
         />
-      </template>
+      </div>
+      <progress-value
+        v-if="current / target < 0.5"
+        :current="current"
+        :target="target"
+        position="outer"
+        :readonly.sync="readonly"
+        @update:current="$emit('update:current', $event)"
+      />
     </div>
   </div>
 </template>
 
 <script>
+import ProgressValue from "./ProgressValue";
+
 export default {
+  components: {
+    ProgressValue
+  },
   props: {
     current: {
       type: Number,
@@ -81,12 +63,6 @@ export default {
     return {
       readonly: true
     };
-  },
-  methods: {
-    edit($event) {
-      this.$emit("update:current", parseInt($event.target.value));
-      this.readonly = true;
-    }
   }
 };
 </script>
@@ -105,20 +81,5 @@ export default {
 .progress-bar.focused {
   background: #4a535b !important;
   border: 2px solid rgba(0, 0, 0, 0.5);
-}
-span.outer {
-  margin-left: 5px;
-  margin-top: 2px;
-}
-input {
-  background-color: rgba(0, 0, 0, 0);
-  border: none;
-  height: 24px;
-  width: 100px;
-}
-input.inner {
-  color: #fff;
-  margin: 0 auto;
-  text-align: center;
 }
 </style>
