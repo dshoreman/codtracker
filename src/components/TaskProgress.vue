@@ -1,5 +1,11 @@
 <template>
   <div>
+    <button class="btn btn-xs btn-danger float-left" @click="current--">
+      -
+    </button>
+    <button class="btn btn-xs btn-success float-right" @click="current++">
+      +
+    </button>
     <div class="progress">
       <div
         class="progress-bar"
@@ -15,8 +21,6 @@
       </div>
       <span v-if="current / target < 0.5">{{ current }} of {{ target }}</span>
     </div>
-    <button @click="current--">-</button>
-    <button @click="current++">+</button>
   </div>
 </template>
 
@@ -35,3 +39,13 @@ export default {
   }
 };
 </script>
+
+<style scoped type="sass">
+.btn-group-xs > .btn,
+.btn-xs {
+  padding: 0.25rem 0.4rem;
+  font-size: 0.875rem;
+  line-height: 0.5;
+  border-radius: 0.2rem;
+}
+</style>

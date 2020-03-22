@@ -1,10 +1,16 @@
 <template>
-  <ul>
-    <li v-for="task in tasks" :key="task.description">
-      {{ task.description }}
-      <task-progress :target="task.target" />
-    </li>
-  </ul>
+  <div class="list-group list-group-flush">
+    <div v-for="task in tasks" :key="task.description" class="list-group-item">
+      <div class="row">
+        <div class="col-sm-6">
+          {{ task.description }}
+        </div>
+        <div class="col-sm-6">
+          <task-progress :target="task.target" />
+        </div>
+      </div>
+    </div>
+  </div>
 </template>
 
 <script>

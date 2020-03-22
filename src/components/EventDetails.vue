@@ -1,16 +1,22 @@
 <template>
-  <div class="row">
-    <div class="col-sm-6">
-      <strong>{{ name }} </strong>
-    </div>
-    <div class="col-sm-6 text-right">
-      ending on
-      <time :datetime="endTime">
-        <strong>{{ endTime }}</strong>
-      </time>
+  <div class="card mb-3">
+    <div class="card-header">
+      <div class="row">
+        <div class="col-sm-6">
+          <strong>{{ name }} </strong>
+        </div>
+        <div class="col-sm-6 text-right">
+          ending on
+          <time :datetime="endTime">
+            <strong>{{ endTime }}</strong>
+          </time>
+        </div>
+      </div>
     </div>
 
-    <event-tasks :tasks="tasks" />
+    <div class="card-body p-0">
+      <event-tasks :tasks="tasks" />
+    </div>
   </div>
 </template>
 
