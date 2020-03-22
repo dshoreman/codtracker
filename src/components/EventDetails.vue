@@ -5,9 +5,9 @@
         <div class="col-sm-6">
           <h5 class="mb-0">{{ name }}</h5>
           <small>
-            ending on
-            <time :datetime="endTime">
-              <strong>{{ endTime }}</strong>
+            ending
+            <time :datetime="endTime" :title="endTime">
+              <strong>{{ endTime | moment("from") }}</strong>
             </time>
           </small>
         </div>
