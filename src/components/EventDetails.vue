@@ -1,6 +1,6 @@
 <template>
   <div class="card">
-    <div class="card-header">
+    <div class="card-header" @click="visible = !visible">
       <div class="row">
         <div class="col-sm-6">
           <strong>{{ name }} </strong>
@@ -14,7 +14,7 @@
       </div>
     </div>
 
-    <div class="card-body p-0">
+    <div v-show="visible" class="card-body p-0">
       <event-tasks v-if="tasks.length" :event="id" :tasks="tasks" />
       <p v-else class="text-center pt-3">
         No tasks available for {{ name }} at this time.
@@ -47,6 +47,11 @@ export default {
       type: Array,
       default: () => []
     }
+  },
+  data() {
+    return {
+      visible: true
+    };
   }
 };
 </script>
