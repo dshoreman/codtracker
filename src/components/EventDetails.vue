@@ -133,6 +133,9 @@ export default {
       localStorage.setItem("ctEvent" + this.id, "{}");
     },
     syncProgress(task, progress) {
+      let target = this.tasks.find(t => t.id == task).target;
+
+      progress = progress < 0 ? 0 : progress > target ? target : progress;
       this.eventProgress[task] = progress;
 
       let json = JSON.stringify(this.eventProgress);
