@@ -2,7 +2,7 @@
   <div class="card">
     <div class="card-header" @click="visible = !visible">
       <div class="row">
-        <div class="col-sm-6">
+        <div class="col-9 col-sm-8">
           <h5 class="mb-0">{{ name }}</h5>
           <small>
             ending
@@ -11,8 +11,11 @@
             </time>
           </small>
         </div>
-        <div class="col-sm-6 text-right">
-          <h6>Completed {{ completed }} of {{ tasks.length }}</h6>
+        <div class="col-3 col-sm-4 text-right">
+          <h6>
+            <span class="d-none d-sm-inline">Completed</span>
+            {{ completed }} of {{ tasks.length }}
+          </h6>
           <button
             class="btn btn-xs btn-outline-danger float-right"
             @click.stop="resetProgress"
