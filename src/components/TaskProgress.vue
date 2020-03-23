@@ -12,7 +12,8 @@
     >
       +
     </button>
-    <div class="progress">
+
+    <div :class="'progress ' + innerOrOuter" @click="showInput(innerOrOuter)">
       <div
         :class="(readonly ? '' : 'focused ') + 'progress-bar bg-secondary'"
         role="progressbar"
@@ -22,19 +23,19 @@
         aria-valuemin="0"
       >
         <progress-value
-          v-if="current / target >= 0.5"
+          v-show="showInner"
+          ref="inner"
           :current="current"
           :target="target"
-          position="inner"
           :readonly.sync="readonly"
           @update:current="$emit('update:current', $event)"
         />
       </div>
       <progress-value
-        v-if="current / target < 0.5"
+        v-show="!showInner"
+        ref="outer"
         :current="current"
         :target="target"
-        position="outer"
         :readonly.sync="readonly"
         @update:current="$emit('update:current', $event)"
       />
@@ -63,6 +64,24 @@ export default {
     return {
       readonly: true
     };
+  },
+  computed: {
+    innerOrOuter() {
+      return this.showInner ? "inner" : "outer";
+    },
+    showInner() {
+      return this.current / this.target >= 0.5;
+    }
+  },
+  methods: {
+    showInput(position) {
+      if (this.readonly) {
+        this.readonly = false;
+      }
+
+      let refs = this.$refs[position].$refs;
+      this.$nextTick(() => refs.input.focus());
+    }
   }
 };
 </script>
