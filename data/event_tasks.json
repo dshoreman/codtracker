@@ -2,195 +2,332 @@
   "event": 5,
   "tasks": [{
     "id": 1,
-    "description": "Get 3 kills in BR using SMGs",
+    "description": "Add 3 Friends",
     "target": 3
   }, {
     "id": 2,
-    "description": "Get 10 kills in BR using ARs",
-    "target": 10
+    "description": "Use Operator Skills 3 Times in MP Matches",
+    "target": 3
   }, {
     "id": 3,
-    "description": "Get 15 kills in Battle Royale",
-    "target": 15
+    "description": "Drive 200 Total Meters with Any Vehicle in Battle Royale",
+    "target": 200
   }, {
     "id": 4,
-    "description": "Get 35 kills in Multiplayer using SMGs",
-    "target": 35
+    "description": "Kill 65 Enemies in MP Ranked Matches",
+    "target": 65
   }, {
     "id": 5,
-    "description": "Play 5 Ranked Multiplayer matches",
+    "description": "Play 5 MP Ranked Matches",
     "target": 5
   }, {
     "id": 6,
-    "description": "Play 15 Ranked Multiplayer matches",
+    "description": "Play 15 MP Ranked Matches",
     "target": 15
   }, {
     "id": 7,
-    "description": "Get 65 kills in Ranked Multiplayer matches",
-    "target": 65
+    "description": "Finish in the Top 15 Twice in Battle Royale",
+    "target": 2
   }, {
     "id": 8,
-    "description": "Finish twice in the top 15 in BR",
-    "target": 2
+    "description": "Kill 15 Enemies in Battle Royale",
+    "target": 15
   }, {
     "id": 9,
-    "description": "Earn MVP twice in Multiplayer matches",
-    "target": 2
+    "description": "Slide 3 Times in MP Matches",
+    "target": 3
   }, {
     "id": 10,
-    "description": "Slide in BR",
+    "description": "Kill 3 Enemies with Operator SKills in MP Matches",
     "target": 3
   }, {
     "id": 11,
-    "description": "Use class skills 3 times in BR",
-    "target": 3
+    "description": "Kill 100 Enemies in MP Matches",
+    "target": 100
   }, {
     "id": 12,
-    "description": "Deal 980 damage in BR",
-    "target": 980
+    "description": "Play 20 MP Matches",
+    "target": 20
   }, {
     "id": 13,
-    "description": "Survive for 48 minutes in BR",
-    "target": 2880
+    "description": "Open 2 Weapon Supply Boxes",
+    "target": 2
   }, {
     "id": 14,
-    "description": "Win 7 Ranked Multiplayer matches",
+    "description": "Use Class Skills 3 Times in Battle Royale",
+    "target": 3
+  }, {
+    "id": 15,
+    "description": "Survive in Battle Royale for 48 Total Minutes",
+    "target": 2880
+  }, {
+    "id": 16,
+    "description": "Reload Six Times in MP Matches",
+    "target": 6
+  }, {
+    "id": 17,
+    "description": "Kill 50 Enemies with AR in MP Matches",
+    "target": 50
+  }, {
+    "id": 18,
+    "description": "Play 3 MP Matches with Friends",
+    "target": 3
+  }, {
+    "id": 19,
+    "description": "Earn MVP in MP Matches twice",
+    "target": 2
+  }, {
+    "id": 20,
+    "description": "Walk 200 Meters in Battle Royale",
+    "target": 200
+  }, {
+    "id": 22,
+    "description": "Deal 980 Total Damage in Battle Royale",
+    "target": 980
+  }, {
+    "id": 23,
+    "description": "Kill 10 Enemies with ARs in Battle Royale",
+    "target": 10
+  }, {
+    "id": 24,
+    "description": "Earn 15 Medals in MP Matches",
+    "target": 15
+  }, {
+    "id": 25,
+    "description": "Use 5 Scorestreaks in MP Matches",
+    "target": 5
+  }, {
+    "id": 26,
+    "description": "Kill 35 Enemies in Multiplayer using SMGs",
+    "target": 35
+  }, {
+    "id": 27,
+    "description": "Win 7 MP Ranked Matches",
     "target": 7
+  }, {
+    "id": 28,
+    "description": "Slide 3 Times in Battle Royale",
+    "target": 3
+  }, {
+    "id": 29,
+    "description": "Kill 3 Enemies with SMGs in Battle Royale",
+    "target": 3
+  }, {
+    "id": 30,
+    "description": "Heal 100 Total Points in Battle Royale",
+    "target": 100
+  }, {
+    "id": 31,
+    "description": "Fire 150 Bullets in MP Matches",
+    "target": 150
+  }, {
+    "id": 32,
+    "description": "Kill 3 Enemies with Scorestreaks in MP Matches",
+    "target": 3
+  }, {
+    "id": 33,
+    "description": "Kill 25 Enemies with Sniper rifles in MP Matches",
+    "target": 25
+  }, {
+    "id": 34,
+    "description": "Win 8 MP Matches",
+    "target": 8
+  }, {
+    "id": 35,
+    "description": "Open 3 Medical Supply Boxes in Battle Royale",
+    "target": 3
+  }, {
+    "id": 36,
+    "description": "Play 2 Matches with Friends in Battle Royale",
+    "target": 2
+  }, {
+    "id": 37,
+    "description": "Kill 2 Enemies With Sniper in Battle Royale",
+    "target": 2
   }]
 }, {
   "event": 6,
   "tasks": [{
-    "id": 15,
-    "description": "Get 1500 kills in Multiplayer matches",
-    "target": 1500
-  }, {
-    "id": 16,
-    "description": "Get 3000 kills in Multiplayer matches",
-    "target": 3000
-  }, {
-    "id": 17,
-    "description": "Play 30 Multiplayer matches",
-    "target": 30
-  }, {
-    "id": 18,
-    "description": "Play 65 Multiplayer matches",
-    "target": 65
-  }, {
-    "id": 19,
-    "description": "Deal 1800 damage in BR matches",
-    "target": 1800
-  }, {
-    "id": 20,
-    "description": "Survive for 95 minutes in Battle Royale",
-    "target": 5700
-  }, {
-    "id": 21,
-    "description": "Win 3 Ranked Multiplayer matches",
+    "id": 1,
+    "description": "Win 3 MP Ranked Matches",
     "target": 3
   }, {
-    "id": 22,
-    "description": "Win 7 Ranked Multiplayer matches",
+    "id": 2,
+    "description": "Win 7 MP Ranked Matches",
     "target": 7
+  }, {
+    "id": 3,
+    "description": "Play 30 MP Matches",
+    "target": 30
+  }, {
+    "id": 4,
+    "description": "Play 65 MP Matches",
+    "target": 65
+  }, {
+    "id": 5,
+    "description": "Kill 1500 Enemies in MP Matches",
+    "target": 1500
+  }, {
+    "id": 6,
+    "description": "Kill 3000 Enemies in MP Matches",
+    "target": 3000
+  }, {
+    "id": 7,
+    "description": "Deal 1800 Total Damage in Battle Royale",
+    "target": 1800
+  }, {
+    "id": 8,
+    "description": "Survive in Battle Royale for 95 Minutes",
+    "target": 5700
   }]
+
 }, {
   "event": 2,
   "tasks": [{
-    "id": 23,
-    "description": "Get 10 kills in Frontline using Hunter Killer Drone",
-    "target": 10
-  }, {
-    "id": 24,
-    "description": "Get 15 kills in TDM using Sparrow",
-    "target": 15
-  }, {
-    "id": 25,
-    "description": "Play 5 Multiplayer matches with friends",
+    "id": 1,
+    "description": "Play 5 MP Matches with Friends",
     "target": 5
   }, {
-    "id": 26,
-    "description": "Play 15 Multiplayer matches with friends",
+    "id": 2,
+    "description": "Play 15 MP Matches with Friends",
     "target": 15
   }, {
-    "id": 27,
+    "id": 3,
+    "description": "Place First or MVP in MP Matches 5 Times",
+    "target": 5
+  }, {
+    "id": 4,
     "description": "Play 10 Frontline matches",
     "target": 10
   }, {
-    "id": 28,
-    "description": "Play 30 Frontline matches",
+    "id": 5,
+    "description": "Play 30 Frontline Matches",
     "target": 30
   }, {
-    "id": 29,
-    "description": "Play 10 Domination matches",
+    "id": 6,
+    "description": "Kill 10 Enemies with the Hunter Killer Drone in Frontline Matches",
     "target": 10
   }, {
-    "id": 30,
-    "description": "Play 30 Domination matches",
-    "target": 30
+    "id": 7,
+    "description": "Play 10 Team Deathmatches",
+    "target": 10
   }, {
-    "id": 31,
+    "id": 8,
     "description": "Play 30 Team Deathmatches",
     "target": 30
   }, {
-    "id": 32,
-    "description": "Get first or MVP in 5 Multiplayer matches",
-    "target": 5
+    "id": 9,
+    "description": "Use Sparrow to Kill 15 Enemies in TDM",
+    "target": 15
   }, {
-    "id": 33,
-    "description": "Occupy a point 15 times in Domination",
+    "id": 10,
+    "description": "Play 10 Domination Matches",
+    "target": 10
+  }, {
+    "id": 11,
+    "description": "Play 30 Domination Matches",
+    "target": 30
+  }, {
+    "id": 12,
+    "description": "Occupy the Point 15 Times in Domination Matches",
     "target": 15
   }]
 }, {
   "event": 4,
   "tasks": [{
-    "id": 34,
-    "description": "Play 3 Ranked Multiplayer matches",
+    "id": 1,
+    "description": "Play 1 Rapid Fire Match",
+    "target": 1
+  }, {
+    "id": 2,
+    "description": "Play 3 Rapid Fire Matches",
     "target": 3
   }, {
-    "id": 35,
-    "description": "Play 5 Ranked Multiplayer matches",
+    "id": 3,
+    "description": "Use Operator Skills 2 times in MP Matches",
+    "target": 2
+  }, {
+    "id": 4,
+    "description": "Use Operator Skills 5 times in MP Matches",
     "target": 5
   }, {
-    "id": 36,
-    "description": "Open 3 weapon supply boxes in Battle Royale",
-    "target": 3
-  }, {
-    "id": 37,
-    "description": "Get 3 kills in Ranked Multiplayer matches",
-    "target": 3
-  }, {
-    "id": 38,
-    "description": "Get 5 kills in Ranked Multiplayer matches",
-    "target": 5
-  }, {
-    "id": 39,
-    "description": "Get 20 kills in Multiplayer using a Pistol",
+    "id": 5,
+    "description": "Kill 20 Enemies with Pistols in MP Matches",
     "target": 20
   }, {
-    "id": 40,
-    "description": "Get 40 kills in Multiplayer using a Pistol",
+    "id": 6,
+    "description": "Kill 40 Enemies with Pistols in MP Matches",
     "target": 40
+  }, {
+    "id": 7,
+    "description": "Enter the Top 15 in Battle Royale Once",
+    "target": 1
+  }, {
+    "id": 8,
+    "description": "Enter the Top 8 in Battle Royale Once",
+    "target": 1
+  }, {
+    "id": 9,
+    "description": "Open Weapon Supply Box Once in Battle Royale",
+    "target": 1
+  }, {
+    "id": 10,
+    "description": "Open Weapon Supply Box 3 Times in Battle Royale",
+    "target": 3
+  }]
+}, {
+  "event": 7,
+  "tasks": [{
+    "id": 1,
+    "description": "Play 1 MP Ranked Match",
+    "target": 1
+  }, {
+    "id": 2,
+    "description": "Play 3 MP Ranked Matches",
+    "target": 3
+  }, {
+    "id": 3,
+    "description": "Play 5 MP Ranked Matches",
+    "target": 5
+  }, {
   }]
 }, {
   "event": 3,
   "tasks": [{
-    "id": 41,
-    "description": "Play 3 Battle Royale matches",
+    "id": 1,
+    "description": "Log in 1 Total Day",
+    "target": 1
+  }, {
+    "id": 2,
+    "description": "Play 1 BR Match",
+    "target": 1
+  }, {
+    "id": 3,
+    "description": "Play 3 BR Matches",
     "target": 3
   }, {
-    "id": 42,
-    "description": "Play 5 Battle Royale matches",
+    "id": 4,
+    "description": "Play 5 BR Matches",
     "target": 5
   }, {
-    "id": 43,
-    "description": "Use the Electric Trip Wire twice in Battle Royale",
+    "id": 5,
+    "description": "Kill 3 Enemies in BR Matches",
+    "target": 3
+  }, {
+    "id": 6,
+    "description": "Kill 5 Enemies in BR Matches",
+    "target": 5
+  }, {
+    "id": 7,
+    "description": "Use ELECTRIC TRIP WIRE 2 times in BR Matches",
     "target": 2
   }, {
-    "id": 44,
-    "description": "Use the Electric Trip Wire 4 times in Battle Royale",
+    "id": 8,
+    "description": "Use ELECTRIC TRIP WIRE 2 times in BR Matches",
     "target": 4
   }, {
-    "id": 45,
-    "description": "Upgrade a Class in Battle Royale",
+    "id": 9,
+    "description": "Upgrade any Class 1 time in BR Matches",
     "target": 1
   }]
 }]
