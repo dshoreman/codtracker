@@ -4,9 +4,18 @@
       <router-link to="/" class="navbar-brand">
         COD Mobile: Event Progress Tracker
       </router-link>
+      <input type="checkbox" checked @click="showCompleted = !showCompleted" />
     </nav>
-    <router-view />
+    <router-view :show-completed="showCompleted" />
   </div>
 </template>
 
-<style lang="scss"></style>
+<script>
+export default {
+  data() {
+    return {
+      showCompleted: true
+    };
+  }
+};
+</script>

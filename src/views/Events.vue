@@ -7,6 +7,7 @@
       :name="ev.name"
       :end-time="ev.end"
       :tasks="findTasks(ev.id)"
+      :show-completed="showCompleted"
     />
   </div>
 </template>
@@ -19,6 +20,12 @@ import tasksJson from "../../data/event_tasks.json";
 export default {
   components: {
     EventDetails
+  },
+  props: {
+    showCompleted: {
+      type: Boolean,
+      default: true
+    }
   },
   data() {
     return {

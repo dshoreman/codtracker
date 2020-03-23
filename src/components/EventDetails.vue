@@ -27,7 +27,12 @@
 
     <div v-show="visible" class="card-body p-0">
       <div v-if="tasks.length" class="list-group list-group-flush">
-        <div v-for="task in tasks" :key="task.id" class="list-group-item">
+        <div
+          v-for="task in tasks"
+          v-show="showCompleted || task.target != eventProgress[task.id]"
+          :key="task.id"
+          class="list-group-item"
+        >
           <div class="row">
             <div class="col-sm-6">
               {{ task.description }}
@@ -74,6 +79,10 @@ export default {
     tasks: {
       type: Array,
       default: () => []
+    },
+    showCompleted: {
+      type: Boolean,
+      default: true
     }
   },
   data() {
