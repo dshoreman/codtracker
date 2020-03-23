@@ -7,6 +7,7 @@
       type="number"
       :value="current"
       class="form-control-sm"
+      @focus="$event.target.select()"
       @keyup.enter="edit"
     />
   </div>
