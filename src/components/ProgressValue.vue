@@ -1,14 +1,13 @@
 <template>
   <div>
-    <span v-if="readonly" :class="position" @click="showInput(position)">
-      {{ current }} of {{ target }}
-    </span>
+    <span v-if="readonly">{{ current }} of {{ target }}</span>
     <input
       v-else
-      :ref="position"
+      ref="input"
       type="number"
       :value="current"
-      :class="position + ' form-control-sm'"
+      class="form-control-sm"
+      @focus="$event.target.select()"
       @keyup.enter="edit"
     />
   </div>
@@ -25,10 +24,6 @@ export default {
       type: Number,
       default: 0
     },
-    position: {
-      type: String,
-      default: ""
-    },
     readonly: {
       type: Boolean,
       default: true
@@ -38,10 +33,6 @@ export default {
     edit($event) {
       this.$emit("update:current", parseInt($event.target.value));
       this.$emit("update:readonly", true);
-    },
-    showInput(input) {
-      this.$emit("update:readonly", false);
-      this.$nextTick(() => this.$refs[input].focus());
     }
   }
 };
@@ -54,12 +45,12 @@ input {
   height: 24px;
   width: 100px;
 }
-input.inner {
+.inner input {
   color: #fff;
   margin: 0 auto;
   text-align: center;
 }
-span.outer {
+.outer span {
   margin-left: 5px;
   line-height: 24px;
 }

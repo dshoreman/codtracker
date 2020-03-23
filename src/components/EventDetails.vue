@@ -2,7 +2,7 @@
   <div class="card">
     <div class="card-header" @click="visible = !visible">
       <div class="row">
-        <div class="col-sm-6">
+        <div class="col-9 col-sm-8">
           <h5 class="mb-0">{{ name }}</h5>
           <small>
             ending
@@ -11,8 +11,11 @@
             </time>
           </small>
         </div>
-        <div class="col-sm-6 text-right">
-          <h6>Completed {{ completed }} of {{ tasks.length }}</h6>
+        <div class="col-3 col-sm-4 text-right">
+          <h6>
+            <span class="d-none d-sm-inline">Completed</span>
+            {{ completed }} of {{ tasks.length }}
+          </h6>
           <button
             class="btn btn-xs btn-outline-danger float-right"
             @click.stop="resetProgress"
@@ -27,7 +30,12 @@
 
     <div v-show="visible" class="card-body p-0">
       <div v-if="tasks.length" class="list-group list-group-flush">
-        <div v-for="task in tasks" :key="task.id" class="list-group-item">
+        <div
+          v-for="task in tasks"
+          v-show="showCompleted || task.target != eventProgress[task.id]"
+          :key="task.id"
+          class="list-group-item"
+        >
           <div class="row">
             <div class="col-sm-6">
               {{ task.description }}
@@ -74,6 +82,10 @@ export default {
     tasks: {
       type: Array,
       default: () => []
+    },
+    showCompleted: {
+      type: Boolean,
+      default: true
     }
   },
   data() {
@@ -124,6 +136,9 @@ export default {
       localStorage.setItem("ctEvent" + this.id, "{}");
     },
     syncProgress(task, progress) {
+      let target = this.tasks.find(t => t.id == task).target;
+
+      progress = progress < 0 ? 0 : progress > target ? target : progress;
       this.eventProgress[task] = progress;
 
       let json = JSON.stringify(this.eventProgress);
