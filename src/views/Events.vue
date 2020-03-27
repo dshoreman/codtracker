@@ -1,7 +1,7 @@
 <template>
   <div>
     <event-details
-      v-for="ev in events"
+      v-for="ev in currentEvents"
       :id="ev.id"
       :key="ev.id"
       :name="ev.name"
@@ -31,6 +31,11 @@ export default {
     return {
       events: eventsJson
     };
+  },
+  computed: {
+    currentEvents() {
+      return this.events.filter(e => this.$moment().isBefore(e.end));
+    }
   },
   methods: {
     findTasks: id => {
