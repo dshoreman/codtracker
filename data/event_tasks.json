@@ -322,11 +322,92 @@
     "target": 2
   }, {
     "id": 8,
-    "description": "Use ELECTRIC TRIP WIRE 2 times in BR Matches",
+    "description": "Use ELECTRIC TRIP WIRE 4 times in BR Matches",
     "target": 4
   }, {
     "id": 9,
     "description": "Upgrade any Class 1 time in BR Matches",
     "target": 1
+  }]
+}, {
+  "event": 8,
+  "tasks": [{
+    "id": 1,
+    "description": "Play 1 TDM Match on Meltdown Map",
+    "target": 1
+  }, {
+    "id": 2,
+    "description": "Play 3 TDM Matches on Meltdown Map",
+    "target": 3
+  }, {
+    "id": 3,
+    "description": "Play 5 TDM Matches on Meltdown Map",
+    "target": 5
+  }, {
+    "id": 4,
+    "description": "Play 8 TDM Matches on Meltdown Map",
+    "target": 3
+  }, {
+    "id": 5,
+    "description": "Play 10 TDM Matches on Meltdown Map",
+    "target": 3
+  }]
+}, {
+  "event": 9,
+  "tasks": [{
+    "id": 1,
+    "description": "Win 2 MP Matches",
+    "target": 2
+  }, {
+    "id": 2,
+    "description": "Win 5 MP Matches",
+    "target": 5
+  }, {
+    "id": 3,
+    "description": "Slide 20 Total Metres in MP and BR",
+    "target": 20
+  }, {
+    "id": 4,
+    "description": "Slide 40 Total Metres in MP and BR",
+    "target": 40
+  }, {
+    "id": 5,
+    "description": "Play 1 Sticks and Stones Match",
+    "target": 1
+  }, {
+    "id": 6,
+    "description": "Play 3 Sticks and Stones Match",
+    "target": 3
+  }, {
+    "id": 7,
+    "description": "Survive 20 Total Minutes in Battle Royale",
+    "target": 1200
+  }, {
+    "id": 8,
+    "description": "Survive 30 Total Minutes in Battle Royale",
+    "target": 1800
+  }, {
+    "id": 9,
+    "description": "Use Class Skills in Battle Royale 2 Times",
+    "target": 2
+  }, {
+    "id": 10,
+    "description": "Use Class Skills in Battle Royale 4 Times",
+    "target": 4
+  }]
+}, {
+  "event": 10,
+  "tasks": [{
+    "id": 1,
+    "description": "Play 1 MP Ranked Match",
+    "target": 1
+  }, {
+    "id": 2,
+    "description": "Play 3 MP Ranked Matches",
+    "target": 3
+  }, {
+    "id": 2,
+    "description": "Play 5 MP Ranked Matches",
+    "target": 5
   }]
 }]
