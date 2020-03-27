@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 ## [Unreleased]
+### Added
+* New weekly, weekly ranked and Meltdown events
+
+### Fixed
+* Typo in a previous Trip Wire event task description
 
 
 ## [0.3.0] - 2020-03-23
