@@ -11,6 +11,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 * Expired events are no longer displayed
 
 
+## [0.3.1] - 2020-03-27
+### Added
+* New weekly, weekly ranked and Meltdown events
+
+### Fixed
+* Typo in a previous Trip Wire event task description
+
+
 ## [0.3.0] - 2020-03-23
 ### Added
 * Completed tasks can now be hidden by toggling the top-right checkbox
@@ -53,7 +61,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 * Anything else that isn't in a later release
 
 
-[Unreleased]: https://github.com/dshoreman/codtracker/compare/v0.3.0...develop
+[Unreleased]: https://github.com/dshoreman/codtracker/compare/v0.3.1...develop
+[0.3.1]: https://github.com/dshoreman/codtracker/compare/v0.3.0...v0.3.1
 [0.3.0]: https://github.com/dshoreman/codtracker/compare/v0.2.1...v0.3.0
 [0.2.1]: https://github.com/dshoreman/codtracker/compare/v0.2.0...v0.2.1
 [0.2.0]: https://github.com/dshoreman/codtracker/compare/v0.1.1...v0.2.0
