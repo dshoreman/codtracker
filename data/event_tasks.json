@@ -346,11 +346,11 @@
   }, {
     "id": 4,
     "description": "Play 8 TDM Matches on Meltdown Map",
-    "target": 3
+    "target": 8
   }, {
     "id": 5,
     "description": "Play 10 TDM Matches on Meltdown Map",
-    "target": 3
+    "target": 10
   }]
 }, {
   "event": 9,
