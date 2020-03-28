@@ -26,7 +26,11 @@
       </div>
     </div>
 
-    <event-progress :current="combinedProgress" :max="totalProgress" />
+    <event-progress
+      :current="combinedProgress"
+      :max="totalProgress"
+      :targets="targets"
+    />
 
     <div v-show="visible" class="card-body p-0">
       <div v-if="tasks.length" class="list-group list-group-flush">
@@ -84,6 +88,10 @@ export default {
     endTime: {
       type: String,
       default: ""
+    },
+    targets: {
+      type: Array,
+      default: () => []
     },
     tasks: {
       type: Array,
@@ -161,10 +169,5 @@ export default {
   font-size: 0.875rem;
   line-height: 0.5;
   border-radius: 0.2rem;
-}
-</style>
-<style scoped type="sass">
-.progress {
-  height: 4px;
 }
 </style>

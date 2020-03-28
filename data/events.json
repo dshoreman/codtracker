@@ -33,7 +33,24 @@
 }, {
   "id": 9,
   "name": "Weekly Challenge",
-  "end": "2020-04-03 00:00:00"
+  "end": "2020-04-03 00:00:00",
+  "targets": [{
+    "target": 40,
+    "reward": "Daily Coin",
+    "qty": 1
+  }, {
+    "target": 80,
+    "reward": "Credits",
+    "qty": 100
+  }, {
+    "target": 120,
+    "reward": "Daily Coin",
+    "qty": 3
+  }, {
+    "target": 160,
+    "reward": "ATV with Reticulated Camo",
+    "qty": 1
+  }]
 }, {
   "id": 10,
   "name": "Weekly Challenge - MP Ranked Matches",
