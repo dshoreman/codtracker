@@ -334,22 +334,32 @@
   "tasks": [{
     "id": 1,
     "description": "Play 1 TDM Match on Meltdown Map",
+    "reward": "Credits",
+    "rewardQty": 50,
     "target": 1
   }, {
     "id": 2,
     "description": "Play 3 TDM Matches on Meltdown Map",
+    "reward": "Credits",
+    "rewardQty": 100,
     "target": 3
   }, {
     "id": 3,
     "description": "Play 5 TDM Matches on Meltdown Map",
+    "reward": "Credits",
+    "rewardQty": 150,
     "target": 5
   }, {
     "id": 4,
     "description": "Play 8 TDM Matches on Meltdown Map",
+    "reward": "ASM10 with Reticulated Camo",
+    "rewardQty": 1,
     "target": 8
   }, {
     "id": 5,
     "description": "Play 10 TDM Matches on Meltdown Map",
+    "reward": "Daily Coin",
+    "rewardQty": 3,
     "target": 10
   }]
 }, {
@@ -357,42 +367,62 @@
   "tasks": [{
     "id": 1,
     "description": "Win 2 MP Matches",
+    "reward": "Points",
+    "rewardQty": 20,
     "target": 2
   }, {
     "id": 2,
     "description": "Win 5 MP Matches",
+    "reward": "Points",
+    "rewardQty": 20,
     "target": 5
   }, {
     "id": 3,
     "description": "Slide 20 Total Metres in MP and BR",
+    "reward": "Points",
+    "rewardQty": 20,
     "target": 20
   }, {
     "id": 4,
     "description": "Slide 40 Total Metres in MP and BR",
+    "reward": "Points",
+    "rewardQty": 20,
     "target": 40
   }, {
     "id": 5,
     "description": "Play 1 Sticks and Stones Match",
+    "reward": "Points",
+    "rewardQty": 20,
     "target": 1
   }, {
     "id": 6,
     "description": "Play 3 Sticks and Stones Match",
+    "reward": "Points",
+    "rewardQty": 20,
     "target": 3
   }, {
     "id": 7,
     "description": "Survive 20 Total Minutes in Battle Royale",
+    "reward": "Points",
+    "rewardQty": 30,
     "target": 1200
   }, {
     "id": 8,
     "description": "Survive 30 Total Minutes in Battle Royale",
+    "reward": "Points",
+    "rewardQty": 30,
     "target": 1800
   }, {
     "id": 9,
     "description": "Use Class Skills in Battle Royale 2 Times",
+    "reward": "Points",
+    "rewardQty": 30,
     "target": 2
   }, {
     "id": 10,
     "description": "Use Class Skills in Battle Royale 4 Times",
+    "reward": "Points",
+    "rewardQty": 30,
     "target": 4
   }]
 }, {
@@ -400,14 +430,20 @@
   "tasks": [{
     "id": 1,
     "description": "Play 1 MP Ranked Match",
+    "reward": "Daily Coin",
+    "rewardQty": 1,
     "target": 1
   }, {
     "id": 2,
     "description": "Play 3 MP Ranked Matches",
+    "reward": "Credits",
+    "rewardQty": 100,
     "target": 3
   }, {
     "id": 2,
     "description": "Play 5 MP Ranked Matches",
+    "reward": "M16 with Reticulated Camo",
+    "rewardQty": 1,
     "target": 5
   }]
 }]
