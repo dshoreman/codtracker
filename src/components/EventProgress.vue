@@ -17,6 +17,12 @@
       :aria-valuemax="max"
       aria-valuemin="0"
     ></div>
+
+    <div
+      v-if="targets.length"
+      class="progress-bar bg-warning"
+      :style="{ width: pointsPercent }"
+    ></div>
   </div>
 </template>
 
@@ -27,6 +33,10 @@ export default {
       type: Number,
       default: 0
     },
+    completed: {
+      type: Array,
+      default: () => []
+    },
     max: {
       type: Number,
       default: 1
@@ -34,6 +44,18 @@ export default {
     targets: {
       type: Array,
       default: () => []
+    }
+  },
+  computed: {
+    pointsPercent() {
+      if (!this.completed.length) {
+        return 0;
+      }
+
+      let cur = this.completed.map(t => t.rewardQty).reduce((a, b) => a + b),
+        max = Math.max(...this.targets.map(t => t.target));
+
+      return (cur / max) * 100 + "%";
     }
   },
   methods: {

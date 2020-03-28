@@ -14,7 +14,7 @@
         <div class="col-3 col-sm-4 text-right">
           <h6>
             <span class="d-none d-sm-inline">Completed</span>
-            {{ completed }} of {{ tasks.length }}
+            {{ completed.length }} of {{ tasks.length }}
           </h6>
           <button
             class="btn btn-xs btn-outline-danger float-right"
@@ -28,6 +28,7 @@
 
     <event-progress
       :current="combinedProgress"
+      :completed="completed"
       :max="totalProgress"
       :targets="targets"
     />
@@ -115,12 +116,12 @@ export default {
       return progress.length ? progress.reduce((a, b) => a + b) : 0;
     },
     completed() {
-      let completed = 0;
+      let completed = [];
       Object.entries(this.eventProgress).forEach(([task, progress]) => {
         let t = this.tasks.find(t => t.id == task);
 
         if (t && t.target == progress) {
-          completed++;
+          completed.push(t);
         }
       });
       return completed;
