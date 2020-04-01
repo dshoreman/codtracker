@@ -17,11 +17,11 @@
 }, {
   "id": 5,
   "name": "Disavowed",
-  "end": "2020-04-02 00:00:00"
+  "end": "2020-04-01 00:00:00"
 }, {
   "id": 6,
   "name": "Disavowed Part B",
-  "end": "2020-04-02 00:00:00"
+  "end": "2020-04-01 00:00:00"
 }, {
   "id": 7,
   "name": "Weekly Challenge—MP Ranked Matches",
@@ -38,4 +38,33 @@
   "id": 10,
   "name": "Weekly Challenge - MP Ranked Matches",
   "end": "2020-04-03 00:00:00"
+}, {
+  "id": 11,
+  "name": "Steel Legion",
+  "end": "2020-05-01 00:00:00"
+}, {
+  "id": 12,
+  "name": "Steel Legion Part B",
+  "end": "2020-05-01 00:00:00"
+}, {
+  "id": 13,
+  "name": "2v2 Showdown",
+  "end": "2020-04-09 00:00:00"
+}, {
+  "id": 14,
+  "name": "Team Play",
+  "end": "2020-04-09 00:00:00",
+  "targets": [{
+    "target": 10,
+    "reward": "Boat - Easter '20",
+    "qty": 1
+  }, {
+    "target": 20,
+    "reward": "UL736 - Reticulated",
+    "qty": 1
+  }, {
+    "target": 30,
+    "reward": "Easter '20 Frame",
+    "qty": 3
+  }]
 }]

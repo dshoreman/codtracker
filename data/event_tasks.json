@@ -334,22 +334,32 @@
   "tasks": [{
     "id": 1,
     "description": "Play 1 TDM Match on Meltdown Map",
+    "reward": "Credits",
+    "rewardQty": 50,
     "target": 1
   }, {
     "id": 2,
     "description": "Play 3 TDM Matches on Meltdown Map",
+    "reward": "Credits",
+    "rewardQty": 100,
     "target": 3
   }, {
     "id": 3,
     "description": "Play 5 TDM Matches on Meltdown Map",
+    "reward": "Credits",
+    "rewardQty": 150,
     "target": 5
   }, {
     "id": 4,
     "description": "Play 8 TDM Matches on Meltdown Map",
+    "reward": "ASM10 - Reticulated",
+    "rewardQty": 1,
     "target": 8
   }, {
     "id": 5,
     "description": "Play 10 TDM Matches on Meltdown Map",
+    "reward": "Daily Coin",
+    "rewardQty": 3,
     "target": 10
   }]
 }, {
@@ -357,42 +367,62 @@
   "tasks": [{
     "id": 1,
     "description": "Win 2 MP Matches",
+    "reward": "Points",
+    "rewardQty": 20,
     "target": 2
   }, {
     "id": 2,
     "description": "Win 5 MP Matches",
+    "reward": "Points",
+    "rewardQty": 20,
     "target": 5
   }, {
     "id": 3,
     "description": "Slide 20 Total Metres in MP and BR",
+    "reward": "Points",
+    "rewardQty": 20,
     "target": 20
   }, {
     "id": 4,
     "description": "Slide 40 Total Metres in MP and BR",
+    "reward": "Points",
+    "rewardQty": 20,
     "target": 40
   }, {
     "id": 5,
     "description": "Play 1 Sticks and Stones Match",
+    "reward": "Points",
+    "rewardQty": 20,
     "target": 1
   }, {
     "id": 6,
     "description": "Play 3 Sticks and Stones Match",
+    "reward": "Points",
+    "rewardQty": 20,
     "target": 3
   }, {
     "id": 7,
     "description": "Survive 20 Total Minutes in Battle Royale",
+    "reward": "Points",
+    "rewardQty": 30,
     "target": 1200
   }, {
     "id": 8,
     "description": "Survive 30 Total Minutes in Battle Royale",
+    "reward": "Points",
+    "rewardQty": 30,
     "target": 1800
   }, {
     "id": 9,
     "description": "Use Class Skills in Battle Royale 2 Times",
+    "reward": "Points",
+    "rewardQty": 30,
     "target": 2
   }, {
     "id": 10,
     "description": "Use Class Skills in Battle Royale 4 Times",
+    "reward": "Points",
+    "rewardQty": 30,
     "target": 4
   }]
 }, {
@@ -400,14 +430,206 @@
   "tasks": [{
     "id": 1,
     "description": "Play 1 MP Ranked Match",
+    "reward": "Daily Coin",
+    "rewardQty": 1,
     "target": 1
   }, {
     "id": 2,
     "description": "Play 3 MP Ranked Matches",
+    "reward": "Credits",
+    "rewardQty": 100,
     "target": 3
   }, {
-    "id": 2,
+    "id": 3,
     "description": "Play 5 MP Ranked Matches",
+    "reward": "M16 - Reticulated",
+    "rewardQty": 1,
     "target": 5
+  }]
+}, {
+  "event": 11,
+  "tasks": [{
+    "id": 1,
+    "description": "Become an MVP in MP Matches 1 time",
+    "reward": "Points",
+    "rewardQty": 80,
+    "target": 1
+  }, {
+    "id": 2,
+    "description": "Kill 65 Enemies in MP Ranked Matches",
+    "reward": "Points",
+    "rewardQty": 80,
+    "target": 65
+  }, {
+    "id": 3,
+    "description": "Play 13 MP Ranked Matches",
+    "reward": "Points",
+    "rewardQty": 80,
+    "target": 13
+  }, {
+    "id": 4,
+    "description": "Use Operator SKills 3 Times in MP Ranked Matches",
+    "reward": "Points",
+    "rewardQty": 80,
+    "target": 3
+  }, {
+    "id": 5,
+    "description": "Use Class SKills 3 Times in Battle Royale",
+    "reward": "Points",
+    "rewardQty": 80,
+    "target": 3
+  }, {
+    "id": 6,
+    "description": "Kill 8 Enemies in Battle Royale",
+    "reward": "Points",
+    "rewardQty": 80,
+    "target": 8
+  }, {
+    "id": 7,
+    "description": "Place in the Top 15 Twice in Battle Royale",
+    "reward": "Points",
+    "rewardQty": 80,
+    "target": 2
+  }]
+}, {
+  "event": 12,
+  "tasks": [{
+    "id": 1,
+    "description": "Play 7 MP Ranked Matches",
+    "reward": "Points",
+    "rewardQty": 400,
+    "target": 7
+  }, {
+    "id": 2,
+    "description": "Play 14 MP Ranked Matches",
+    "reward": "Points",
+    "rewardQty": 400,
+    "target": 14
+  }, {
+    "id": 3,
+    "description": "Kill 400 Enemies in MP Matches",
+    "reward": "Points",
+    "rewardQty": 400,
+    "target": 400
+  }, {
+    "id": 4,
+    "description": "Kill 850 Enemies in MP Matches",
+    "reward": "Points",
+    "rewardQty": 400,
+    "target": 850
+  }, {
+    "id": 5,
+    "description": "Play 80 MP Matches",
+    "reward": "Points",
+    "rewardQty": 400,
+    "target": 80
+  }, {
+    "id": 6,
+    "description": "Play 160 MP Matches",
+    "reward": "Points",
+    "rewardQty": 400,
+    "target": 160
+  }, {
+    "id": 7,
+    "description": "Deal 1500 Total Damage in Battle Royale",
+    "reward": "Points",
+    "rewardQty": 400,
+    "target": 1500
+  }, {
+    "id": 7,
+    "description": "Survive in Battle Royale for 2 hours (7200 seconds)",
+    "reward": "Points",
+    "rewardQty": 400,
+    "target": 7200
+  }]
+}, {
+  "event": 13,
+  "tasks": [{
+    "id": 1,
+    "description": "Play 1 2v2 Showdown Match",
+    "reward": "Credits",
+    "rewardQty": 100,
+    "target": 1
+  }, {
+    "id": 2,
+    "description": "Play 3 2v2 Showdown Matches",
+    "reward": "Type 25 - Reticulated",
+    "rewardQty": 1,
+    "target": 3
+  }, {
+    "id": 3,
+    "description": "Win 1 2v2 Showdown Match",
+    "reward": "Daily Coin",
+    "rewardQty": 1,
+    "target": 1
+  }, {
+    "id": 4,
+    "description": "Kill 10 Enemies in 2v2 Showdown Matches",
+    "reward": "Daily Coin",
+    "rewardQty": 1,
+    "target": 10
+  }, {
+    "id": 5,
+    "description": "Kill 30 Enemies in 2v2 Showdown Matches",
+    "reward": "XPR-50 - Reticulated",
+    "rewardQty": 1,
+    "target": 30
+  }]
+}, {
+  "event": 14,
+  "tasks": [{
+    "id": 1,
+    "description": "Play 1 MP Match with Friends",
+    "reward": "Points",
+    "rewardQty": 3,
+    "target": 1
+  }, {
+    "id": 2,
+    "description": "Play 3 MP Match with Friends",
+    "reward": "Points",
+    "rewardQty": 5,
+    "target": 3
+  }, {
+    "id": 3,
+    "description": "Play 5 MP Match with Friends",
+    "reward": "Points",
+    "rewardQty": 10,
+    "target": 5
+  }, {
+    "id": 4,
+    "description": "Assist Teammates 3 Times in MP Matches",
+    "reward": "Points",
+    "rewardQty": 10,
+    "target": 3
+  }, {
+    "id": 5,
+    "description": "Revive a Teammate in Battle Royale",
+    "reward": "Points",
+    "rewardQty": 10,
+    "target": 1
+  }, {
+    "id": 6,
+    "description": "Message Friends for 5 Days",
+    "reward": "Points",
+    "rewardQty": 5,
+    "target": 5
+  }, {
+    "id": 7,
+    "description": "Send 10 XP Cards to friends",
+    "reward": "Points",
+    "rewardQty": 5,
+    "target": 10
+  }, {
+    "id": 8,
+    "description": "Play 1 BR Match with Friends",
+    "reward": "Points",
+    "rewardQty": 5,
+    "target": 1
+  }, {
+    "id": 9,
+    "description": "Play 3 BR Matches with Friends",
+    "reward": "Points",
+    "rewardQty": 5,
+    "target": 3
   }]
 }]
