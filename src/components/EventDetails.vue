@@ -38,7 +38,10 @@
         >
           <div class="row">
             <div class="col-sm-6">
-              <span v-if="task.reward" class="badge badge-info">
+              <span v-if="task.reward == 'Points'" class="badge badge-info">
+                +{{ task.rewardQty }}
+              </span>
+              <span v-else-if="task.reward" class="badge badge-info">
                 {{ task.rewardQty }} x {{ task.reward }}
               </span>
               {{ task.description }}

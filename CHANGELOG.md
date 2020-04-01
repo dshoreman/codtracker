@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 ## [Unreleased]
+### Added
+* Events now have rewards shown alongside tasks
+
 ### Changed
 * Expired events are no longer displayed
 
