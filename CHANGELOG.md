@@ -9,9 +9,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 ### Added
 * Events now have rewards shown alongside tasks
+* New Season 5 "Steel Legion", 2v2 and Team Play events
 
 ### Changed
 * Expired events are no longer displayed
+
+### Fixed
+* Disavowed date adjusted to reflect ending a day early
+* Duplicate ID in Weekly tasks prevented individual tracking
 
 
 ## [0.3.2] - 2020-03-27
