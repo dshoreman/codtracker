@@ -536,7 +536,7 @@
     "rewardQty": 400,
     "target": 1500
   }, {
-    "id": 7,
+    "id": 8,
     "description": "Survive in Battle Royale for 2 hours (7200 seconds)",
     "reward": "Points",
     "rewardQty": 400,
@@ -585,13 +585,13 @@
     "target": 1
   }, {
     "id": 2,
-    "description": "Play 3 MP Match with Friends",
+    "description": "Play 3 MP Matches with Friends",
     "reward": "Points",
     "rewardQty": 5,
     "target": 3
   }, {
     "id": 3,
-    "description": "Play 5 MP Match with Friends",
+    "description": "Play 5 MP Matches with Friends",
     "reward": "Points",
     "rewardQty": 10,
     "target": 5
