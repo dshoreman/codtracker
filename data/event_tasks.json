@@ -632,4 +632,88 @@
     "rewardQty": 5,
     "target": 3
   }]
+}, {
+  "event": 15,
+  "tasks": [{
+    "id": 1,
+    "description": "Use Operator Skills 2 times in MP Matches",
+    "reward": "Points",
+    "rewardQty": 20,
+    "target": 2
+  }, {
+    "id": 2,
+    "description": "Use Operator Skills 5 times in MP Matches",
+    "reward": "Points",
+    "rewardQty": 20,
+    "target": 5
+  }, {
+    "id": 3,
+    "description": "Kill 10 Enemies with Operator Skills in MP Matches",
+    "reward": "Points",
+    "rewardQty": 20,
+    "target": 10
+  }, {
+    "id": 4,
+    "description": "Fire 200 Total Bullets in MP or BR",
+    "reward": "Points",
+    "rewardQty": 20,
+    "target": 200
+  }, {
+    "id": 5,
+    "description": "Fire 500 Total Bullets in MP or BR",
+    "reward": "Points",
+    "rewardQty": 20,
+    "target": 500
+  }, {
+    "id": 6,
+    "description": "Play 1 One Shot One Kill Match",
+    "reward": "Points",
+    "rewardQty": 20,
+    "target": 1
+  }, {
+    "id": 7,
+    "description": "Kill 10 Enemies in Battle Royale",
+    "reward": "Points",
+    "rewardQty": 30,
+    "target": 10
+  }, {
+    "id": 8,
+    "description": "Kill 20 Enemies in Battle Royale",
+    "reward": "Points",
+    "rewardQty": 30,
+    "target": 20
+  }, {
+    "id": 9,
+    "description": "Travel 300 Metres with Any Vehicle in Battle Royale",
+    "reward": "Points",
+    "rewardQty": 30,
+    "target": 300
+  }, {
+    "id": 10,
+    "description": "Travel 600 Metres with Any Vehicle in Battle Royale",
+    "reward": "Points",
+    "rewardQty": 30,
+    "target": 600
+  }]
+}, {
+  "event": 16,
+  "tasks": [{
+    "id": 1,
+    "description": "Kill 10 Enemies in MP Ranked Matches",
+    "reward": "Daily Coin",
+    "rewardQty": 1,
+    "target": 10
+  }, {
+    "id": 2,
+    "description": "Kill 20 Enemies in MP Ranked Matches",
+    "reward": "Credits",
+    "rewardQty": 100,
+    "target": 20
+  }, {
+    "id": 3,
+    "description": "Kill 50 Enemies in MP Ranked Matches",
+    "reward": "RPD - Easter '20",
+    "rewardQty": 1,
+    "target": 50
+  }]
 }]
