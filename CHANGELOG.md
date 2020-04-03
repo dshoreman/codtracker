@@ -9,6 +9,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## [0.4.3] - 2020-04-03
+### Fixed
+* Weekly Ranked challenge requires 30 kills, not 20
+
+
 ## [0.4.2] - 2020-04-03
 ### Added
 * Weekly challenge events for 03/04/20
@@ -88,7 +93,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 * Anything else that isn't in a later release
 
 
-[Unreleased]: https://github.com/dshoreman/codtracker/compare/v0.4.2...develop
+[Unreleased]: https://github.com/dshoreman/codtracker/compare/v0.4.3...develop
+[0.4.3]: https://github.com/dshoreman/codtracker/compare/v0.4.2...v0.4.3
 [0.4.2]: https://github.com/dshoreman/codtracker/compare/v0.4.1...v0.4.2
 [0.4.1]: https://github.com/dshoreman/codtracker/compare/v0.4.0...v0.4.1
 [0.4.0]: https://github.com/dshoreman/codtracker/compare/v0.3.2...v0.4.0
