@@ -490,6 +490,48 @@
     "reward": "Points",
     "rewardQty": 80,
     "target": 2
+}, {
+    "id": 8,
+    "description": "Add 3 Friends",
+    "reward": "Points",
+    "rewardQty": 80,
+    "target": 3
+  }, {
+    "id": 9,
+    "description": "Use 5 Scorestreaks in MP Matches",
+    "reward": "Points",
+    "rewardQty": 80,
+    "target": 5
+  }, {
+    "id": 10,
+    "description": "Kill 100 Enemies in MP Matches",
+    "reward": "Points",
+    "rewardQty": 80,
+    "target": 100
+  }, {
+    "id": 11,
+    "description": "Play 16 MP Matches",
+    "reward": "Points",
+    "rewardQty": 80,
+    "target": 16
+  }, {
+    "id": 12,
+    "description": "Survive in Battle Royale for 25 Total Minutes (1500 seconds)",
+    "reward": "Points",
+    "rewardQty": 80,
+    "target": 1500
+  }, {
+    "id": 13,
+    "description": "Heal 100 Total Points in Battle Royale",
+    "reward": "Points",
+    "rewardQty": 80,
+    "target": 100
+  }, {
+    "id": 14,
+    "description": "Deal 2000 Total Damage in Battle Royale",
+    "reward": "Points",
+    "rewardQty": 80,
+    "target": 2000
   }]
 }, {
   "event": 12,
