@@ -92,4 +92,29 @@
     "reward": "J358 - Easter '20",
     "qty": 1
   }]
+}, {
+  "id": 17,
+  "name": "Battle Royale Easter Egg",
+  "end": "2020-04-21 00:00:00",
+  "targets": [{
+    "target": 10,
+    "reward": "Smoke Grenade - Easter '20",
+    "qty": 1
+  }, {
+    "target": 20,
+    "reward": "M21 EBR - Easter '20",
+    "qty": 1
+  }, {
+    "target": 30,
+    "reward": "ASM10 - Cubic Illusion",
+    "qty": 1
+  }]
+}, {
+  "id": 18,
+  "name": "Easter Egg Prop Hunt",
+  "end": "2020-04-21 00:00:00"
+}, {
+  "id": 19,
+  "name": "Easter Egg Collection Milestone",
+  "end": "2020-04-20 00:00:00"
 }]
