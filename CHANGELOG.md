@@ -9,7 +9,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
-## [0.4.2] - 2020-04-03
+## [0.4.5] - 2020-04-09
+## Added
+* Easter Egg BR and Prop Hunt events
+
+
+## [0.4.4] - 2020-04-03
 ### Added
 * Week 2 tasks for Steel Legion event
 
