@@ -833,7 +833,6 @@
 }, {
   "event": 19,
   "tasks": [{
-  }, {
     "id": 1,
     "description": "Collect 5 Easter Eggs in MP or BR",
     "reward": "Weapon XP Card (100)",
@@ -869,5 +868,89 @@
     "reward": "RUS-79U - Easter '20",
     "rewardQty": 1,
     "target": 100
+  }]
+}, {
+  "event": 20,
+  "tasks": [{
+    "id": 1,
+    "description": "Use Frag Grenade 3 Times in MP Matches",
+    "reward": "Points",
+    "rewardQty": 20,
+    "target": 3
+  }, {
+    "id": 2,
+    "description": "Use Frag Grenade 6 Times in MP Matches",
+    "reward": "Points",
+    "rewardQty": 20,
+    "target": 6
+  }, {
+    "id": 3,
+    "description": "Kill 5 Enemies with Headshots in MP Matches",
+    "reward": "Points",
+    "rewardQty": 20,
+    "target": 5
+  }, {
+    "id": 4,
+    "description": "Use Scorestreaks 2 Times in MP Matches",
+    "reward": "Points",
+    "rewardQty": 20,
+    "target": 2
+  }, {
+    "id": 5,
+    "description": "Deal 300 Total Damage in Battle Royale",
+    "reward": "Points",
+    "rewardQty": 20,
+    "target": 300
+  }, {
+    "id": 6,
+    "description": "Deal 600 Total Damage in Battle Royale",
+    "reward": "Points",
+    "rewardQty": 20,
+    "target": 600
+  }, {
+    "id": 7,
+    "description": "Open Medical Supply Box 3 Times in Battle Royale",
+    "reward": "Points",
+    "rewardQty": 30,
+    "target": 3
+  }, {
+    "id": 8,
+    "description": "Open Weapon Supply Box Once in Battle Royale",
+    "reward": "Points",
+    "rewardQty": 30,
+    "target": 2
+  }, {
+    "id": 9,
+    "description": "Enter the Top 20 in Battle Royale Once",
+    "reward": "Points",
+    "rewardQty": 30,
+    "target": 1
+  }, {
+    "id": 10,
+    "description": "Enter the Top 10 in Battle Royale Once",
+    "reward": "Points",
+    "rewardQty": 30,
+    "target": 1
+  }]
+}, {
+  "event": 21,
+  "tasks": [{
+    "id": 1,
+    "description": "Win 1 MP Ranked Match",
+    "reward": "Daily Coin",
+    "rewardQty": 1,
+    "target": 1
+  }, {
+    "id": 2,
+    "description": "Win 2 MP Ranked Matches",
+    "reward": "Credits",
+    "rewardQty": 100,
+    "target": 2
+  }, {
+    "id": 2,
+    "description": "Win 3 MP Ranked Matches",
+    "reward": "Arctic .50 - Easter '20",
+    "rewardQty": 1,
+    "target": 3
   }]
 }]

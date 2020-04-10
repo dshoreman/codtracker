@@ -9,6 +9,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## [0.4.6] - 2020-04-09
+## Added
+* Weekly Challenge tasks for 10-16/04
+
+
 ## [0.4.5] - 2020-04-09
 ## Added
 * Easter Egg BR and Prop Hunt events
@@ -103,7 +108,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 * Anything else that isn't in a later release
 
 
-[Unreleased]: https://github.com/dshoreman/codtracker/compare/v0.4.4...develop
+[Unreleased]: https://github.com/dshoreman/codtracker/compare/v0.4.5...develop
+[0.4.5]: https://github.com/dshoreman/codtracker/compare/v0.4.4...v0.4.5
 [0.4.4]: https://github.com/dshoreman/codtracker/compare/v0.4.3...v0.4.4
 [0.4.3]: https://github.com/dshoreman/codtracker/compare/v0.4.2...v0.4.3
 [0.4.2]: https://github.com/dshoreman/codtracker/compare/v0.4.1...v0.4.2

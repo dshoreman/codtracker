@@ -117,4 +117,29 @@
   "id": 19,
   "name": "Easter Egg Collection Milestone",
   "end": "2020-04-20 00:00:00"
+}, {
+  "id": 20,
+  "name": "Weekly Challenge",
+  "end": "2020-04-17 00:00:00",
+  "targets": [{
+    "target": 40,
+    "reward": "Daily Coin",
+    "qty": 1
+  }, {
+    "target": 80,
+    "reward": "Credits",
+    "qty": 100
+  }, {
+    "target": 120,
+    "reward": "Daily Coin",
+    "qty": 3
+  }, {
+    "target": 160,
+    "reward": "ORV - Easter '20",
+    "qty": 1
+  }]
+}, {
+  "id": 21,
+  "name": "Weekly Challenge - MP Ranked Matches",
+  "end": "2020-04-17 00:00:00"
 }]
