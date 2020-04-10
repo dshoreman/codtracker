@@ -9,7 +9,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
-## [0.4.6] - 2020-04-09
+## [0.4.7] - 2020-04-10
+## Fixed
+* Duplicate ID in Ranked MP tasks was preventing updates
+
+
+## [0.4.6] - 2020-04-10
 ## Added
 * Weekly Challenge tasks for 10-16/04
 
