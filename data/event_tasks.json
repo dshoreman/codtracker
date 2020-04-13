@@ -490,7 +490,7 @@
     "reward": "Points",
     "rewardQty": 80,
     "target": 2
-}, {
+  }, {
     "id": 8,
     "description": "Add 3 Friends",
     "reward": "Points",
@@ -532,6 +532,48 @@
     "reward": "Points",
     "rewardQty": 80,
     "target": 2000
+  }, {
+    "id": 15,
+    "description": "Make the Final Kill in MP Matches",
+    "reward": "Points",
+    "rewardQty": 80,
+    "target": 1
+  }, {
+    "id": 16,
+    "description": "Use 6 Grenades in MP Ranked Matches",
+    "reward": "Points",
+    "rewardQty": 80,
+    "target": 6
+  }, {
+    "id": 17,
+    "description": "Kill 4 Enemies with Headshots in MP Ranked Matches",
+    "reward": "Points",
+    "rewardQty": 80,
+    "target": 4
+  }, {
+    "id": 18,
+    "description": "Play 6 MP Ranked Matches with Friends",
+    "reward": "Points",
+    "rewardQty": 80,
+    "target": 6
+  }, {
+    "id": 19,
+    "description": "Open Medical Supply Box in Battle Royale Once",
+    "reward": "Points",
+    "rewardQty": 80,
+    "target": 1
+  }, {
+    "id": 20,
+    "description": "Drive 300 Total Metres with Any Vehicle in Battle Royale",
+    "reward": "Points",
+    "rewardQty": 80,
+    "target": 300
+  }, {
+    "id": 21,
+    "description": "Kill 12 Enemies with ARs in Battle Royale",
+    "reward": "Points",
+    "rewardQty": 80,
+    "target": 12
   }]
 }, {
   "event": 12,
