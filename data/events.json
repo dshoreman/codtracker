@@ -142,4 +142,21 @@
   "id": 21,
   "name": "Weekly Challenge - MP Ranked Matches",
   "end": "2020-04-17 00:00:00"
+}, {
+  "id": 22,
+  "name": "Tenacity Rewarded",
+  "end": "2020-04-29 00:00:00",
+  "targets": [{
+    "target": 40,
+    "reward": "S36 - Reticulated",
+    "qty": 1
+  }, {
+    "target": 80,
+    "reward": "Type 25 - Evil Chip",
+    "qty": 1
+  }, {
+    "target": 100,
+    "reward": "AK-47 - Jade",
+    "qty": 1
+  }]
 }]

@@ -9,6 +9,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## [0.4.9] - 2020-04-13
+## Added
+* Tenacity Rewarded event tasks
+
+
 ## [0.4.8] - 2020-04-13
 ## Added
 * Week 3 tasks for the Steel Legion event
@@ -118,7 +123,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 * Anything else that isn't in a later release
 
 
-[Unreleased]: https://github.com/dshoreman/codtracker/compare/v0.4.8...develop
+[Unreleased]: https://github.com/dshoreman/codtracker/compare/v0.4.9...develop
+[0.4.9]: https://github.com/dshoreman/codtracker/compare/v0.4.8...v0.4.8
 [0.4.8]: https://github.com/dshoreman/codtracker/compare/v0.4.7...v0.4.8
 [0.4.7]: https://github.com/dshoreman/codtracker/compare/v0.4.6...v0.4.7
 [0.4.6]: https://github.com/dshoreman/codtracker/compare/v0.4.5...v0.4.6

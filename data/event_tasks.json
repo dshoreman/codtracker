@@ -995,4 +995,79 @@
     "rewardQty": 1,
     "target": 3
   }]
+}, {
+  "event": 22,
+  "tasks": [{
+    "id": 1,
+    "description": "Play 20 Frontline Matches",
+    "reward": "Points",
+    "rewardQty": 10,
+    "target": 20
+  }, {
+    "id": 2,
+    "description": "Play 10 TDM Matches on Meltdown Map",
+    "reward": "Points",
+    "rewardQty": 10,
+    "target": 10
+  }, {
+    "id": 3,
+    "description": "Occupy Point 10 Times in Hardpoint Matches",
+    "reward": "Points",
+    "rewardQty": 8,
+    "target": 10
+  }, {
+    "id": 4,
+    "description": "Play 8 Domination Matches",
+    "reward": "Points",
+    "rewardQty": 8,
+    "target": 8
+  }, {
+    "id": 5,
+    "description": "Place First or MVP in 3 MP Matches",
+    "reward": "Points",
+    "rewardQty": 8,
+    "target": 3
+  }, {
+    "id": 6,
+    "description": "Play 10 MP Matches with Friends",
+    "reward": "Points",
+    "rewardQty": 12,
+    "target": 10
+  }, {
+    "id": 7,
+    "description": "Revive 3 Teammates in Battle Royale",
+    "reward": "Points",
+    "rewardQty": 12,
+    "target": 3
+  }, {
+    "id": 8,
+    "description": "Place Top 10 in Battle Royale 3 Times",
+    "reward": "Points",
+    "rewardQty": 10,
+    "target": 3
+  }, {
+    "id": 9,
+    "description": "Kill 20 Enemies in Battle Royale",
+    "reward": "Points",
+    "rewardQty": 8,
+    "target": 20
+  }, {
+    "id": 10,
+    "description": "Play 5 BR Matches with Friends",
+    "reward": "Points",
+    "rewardQty": 10,
+    "target": 5
+  }, {
+    "id": 11,
+    "description": "Use Shock RC in MP matches 5 times",
+    "reward": "Points",
+    "rewardQty": 10,
+    "target": 5
+  }, {
+    "id": 12,
+    "description": "Use Operator Skills 5 Times in TDM matches",
+    "reward": "Points",
+    "rewardQty": 5,
+    "target": 5
+  }]
 }]
