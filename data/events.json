@@ -159,4 +159,46 @@
     "reward": "AK-47 - Jade",
     "qty": 1
   }]
+}, {
+  "id": 23,
+  "name": "Clan Ally",
+  "end": "2020-04-25 00:00:00",
+  "targets": [{
+    "target": 10,
+    "reward": "Frag Grenade - Cubic Illusion",
+    "qty": 1
+  }, {
+    "target": 20,
+    "reward": "Sticky Grenade - Easter '20",
+    "qty": 1
+  }, {
+    "target": 30,
+    "reward": "Easter '20 Avatar",
+    "qty": 1
+  }]
+}, {
+  "id": 24,
+  "name": "Weekly Challenge",
+  "end": "2020-04-29 00:00:00",
+  "targets": [{
+    "target": 40,
+    "reward": "Daily Coin",
+    "qty": 1
+  }, {
+    "target": 80,
+    "reward": "Credits",
+    "qty": 100
+  }, {
+    "target": 120,
+    "reward": "Daily Coin",
+    "qty": 3
+  }, {
+    "target": 160,
+    "reward": "Parachute - Easter '20",
+    "qty": 1
+  }]
+}, {
+  "id": 25,
+  "name": "Weekly Challenge - MP Ranked Matches",
+  "end": "2020-04-29 00:00:00"
 }]

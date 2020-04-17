@@ -9,7 +9,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
-## [0.4.9] - 2020-04-13
+## [0.4.10] - 2020-04-17
+## Added
+* Clan Ally event tasks
+* New weekly public and ranked tasks
+
+
+## [0.4.9] - 2020-04-16
 ## Added
 * Tenacity Rewarded event tasks
 
@@ -123,8 +129,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 * Anything else that isn't in a later release
 
 
-[Unreleased]: https://github.com/dshoreman/codtracker/compare/v0.4.9...develop
-[0.4.9]: https://github.com/dshoreman/codtracker/compare/v0.4.8...v0.4.8
+[Unreleased]: https://github.com/dshoreman/codtracker/compare/v0.4.10...develop
+[0.4.10]: https://github.com/dshoreman/codtracker/compare/v0.4.9...v0.4.10
+[0.4.9]: https://github.com/dshoreman/codtracker/compare/v0.4.8...v0.4.9
 [0.4.8]: https://github.com/dshoreman/codtracker/compare/v0.4.7...v0.4.8
 [0.4.7]: https://github.com/dshoreman/codtracker/compare/v0.4.6...v0.4.7
 [0.4.6]: https://github.com/dshoreman/codtracker/compare/v0.4.5...v0.4.6
