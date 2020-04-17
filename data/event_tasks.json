@@ -1070,4 +1070,133 @@
     "rewardQty": 5,
     "target": 5
   }]
+}, {
+  "event": 23,
+  "tasks": [{
+    "id": 1,
+    "description": "Join a Clan",
+    "reward": "Points",
+    "rewardQty": 5,
+    "target": 1
+  }, {
+    "id": 2,
+    "description": "Increase clan activity by 6 points",
+    "reward": "Points",
+    "rewardQty": 10,
+    "target": 6
+  }, {
+    "id": 3,
+    "description": "Upgrade the clan to Level 5",
+    "reward": "Points",
+    "rewardQty": 10,
+    "target": 5
+  }, {
+    "id": 4,
+    "description": "Play 3 matches in any mode with a friend",
+    "reward": "Points",
+    "rewardQty": 10,
+    "target": 3
+  }, {
+    "id": 5,
+    "description": "Upgrade the clan to Level 10",
+    "reward": "Points",
+    "rewardQty": 10,
+    "target": 10
+  }, {
+    "id": 6,
+    "description": "Increase clan activity by 10 points",
+    "reward": "Points",
+    "rewardQty": 10,
+    "target": 5
+  }]
+}, {
+  "event": 24,
+  "tasks": [{
+    "id": 1,
+    "description": "Kill 5 Enemies with Melee Attacks in MP Matches",
+    "reward": "Points",
+    "rewardQty": 20,
+    "target": 5
+  }, {
+    "id": 2,
+    "description": "Kill 10 Enemies with Melee Attacks in MP Matches",
+    "reward": "Points",
+    "rewardQty": 20,
+    "target": 10
+  }, {
+    "id": 3,
+    "description": "Become an MVP in MP Matches 2 Times",
+    "reward": "Points",
+    "rewardQty": 20,
+    "target": 2
+  }, {
+    "id": 4,
+    "description": "Become an MVP in MP Matches 1 Time",
+    "reward": "Points",
+    "rewardQty": 20,
+    "target": 1
+  }, {
+    "id": 5,
+    "description": "Kill 5 Enemies with Scorestreak in MP Matches",
+    "reward": "Points",
+    "rewardQty": 20,
+    "target": 5
+  }, {
+    "id": 6,
+    "description": "Play 1 Match with friends",
+    "reward": "Points",
+    "rewardQty": 20,
+    "target": 1
+  }, {
+    "id": 7,
+    "description": "Use Class Skill 5 Times in Battle Royale",
+    "reward": "Points",
+    "rewardQty": 20,
+    "target": 5
+  }, {
+    "id": 8,
+    "description": "Glide 200 Metres in Battle Royale",
+    "reward": "Points",
+    "rewardQty": 20,
+    "target": 200
+  }, {
+    "id": 9,
+    "description": "Heal 150 Total Points in Battle Royale",
+    "reward": "Points",
+    "rewardQty": 20,
+    "target": 150
+  }, {
+    "id": 10,
+    "description": "Heal 300 Total Points in Battle Royale",
+    "reward": "Points",
+    "rewardQty": 20,
+    "target": 300
+  }]
+}, {
+  "event": 25,
+  "tasks": [{
+    "id": 1,
+    "description": "Play 2 MP Ranked Matches",
+    "reward": "Daily Coin",
+    "rewardQty": 1,
+    "target": 2
+  }, {
+    "id": 2,
+    "description": "Win 2 MP Ranked Matches",
+    "reward": "Credits",
+    "rewardQty": 100,
+    "target": 2
+  }, {
+    "id": 3,
+    "description": "Kill 15 Enemies in MP Ranked Matches",
+    "reward": "MW11 - Easter '20",
+    "rewardQty": 1,
+    "target": 15
+  }, {
+    "id": 4,
+    "description": "Play 5 MP Ranked Matches",
+    "reward": "SMRS - Reticulated",
+    "rewardQty": 1,
+    "target": 5
+  }]
 }]
