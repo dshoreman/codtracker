@@ -1,5 +1,5 @@
 <template>
-  <div id="app" class="container">
+  <div id="app" class="container-xl">
     <nav class="navbar navbar-dark bg-dark">
       <router-link to="/" class="navbar-brand">
         COD Mobile: Event Progress Tracker
