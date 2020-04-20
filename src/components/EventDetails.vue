@@ -14,7 +14,7 @@
         <div class="col-3 col-sm-4 text-right">
           <h6>
             <span class="d-none d-sm-inline">Completed</span>
-            {{ completed }} of {{ tasks.length }}
+            {{ completed.length }} of {{ tasks.length }}
           </h6>
           <button
             class="btn btn-xs btn-outline-danger float-right"
@@ -26,7 +26,13 @@
       </div>
     </div>
 
-    <event-progress :current="combinedProgress" :max="totalProgress" />
+    <event-progress
+      :current="combinedProgress"
+      :completed="completed"
+      :max="totalProgress"
+      :targets="targets"
+      :tasks="tasks"
+    />
 
     <div v-show="visible" class="card-body p-0">
       <div v-if="tasks.length" class="list-group list-group-flush">
@@ -85,6 +91,10 @@ export default {
       type: String,
       default: ""
     },
+    targets: {
+      type: Array,
+      default: () => []
+    },
     tasks: {
       type: Array,
       default: () => []
@@ -107,12 +117,12 @@ export default {
       return progress.length ? progress.reduce((a, b) => a + b) : 0;
     },
     completed() {
-      let completed = 0;
+      let completed = [];
       Object.entries(this.eventProgress).forEach(([task, progress]) => {
         let t = this.tasks.find(t => t.id == task);
 
         if (t && t.target == progress) {
-          completed++;
+          completed.push(t);
         }
       });
       return completed;
@@ -161,10 +171,5 @@ export default {
   font-size: 0.875rem;
   line-height: 0.5;
   border-radius: 0.2rem;
-}
-</style>
-<style scoped type="sass">
-.progress {
-  height: 4px;
 }
 </style>
