@@ -31,6 +31,7 @@
       :completed="completed"
       :max="totalProgress"
       :targets="targets"
+      :tasks="tasks"
     />
 
     <div v-show="visible" class="card-body p-0">

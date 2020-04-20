@@ -44,6 +44,10 @@ export default {
     targets: {
       type: Array,
       default: () => []
+    },
+    tasks: {
+      type: Array,
+      default: () => []
     }
   },
   computed: {
@@ -52,16 +56,20 @@ export default {
         return 0;
       }
 
-      let cur = this.completed.map(t => t.rewardQty).reduce((a, b) => a + b),
-        max = Math.max(...this.targets.map(t => t.target));
+      const completed = this.completed.map(t => t.rewardQty);
 
-      return (cur / max) * 100 + "%";
+      return (this.sum(completed) / this.obtainable) * 100 + "%";
+    },
+    obtainable() {
+      return this.sum(this.tasks.map(t => t.rewardQty));
     }
   },
   methods: {
+    sum(values) {
+      return values.reduce((a, b) => a + b, 0);
+    },
     targetStyle(target) {
-      let max = Math.max(...this.targets.map(t => t.target)),
-        width = (target / max) * 100;
+      const width = (target / this.obtainable) * 100;
 
       return "left: calc(" + width + "% - 2px)";
     }
