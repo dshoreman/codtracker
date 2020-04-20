@@ -4,6 +4,7 @@
       <li
         v-for="t in targets"
         :key="t.target"
+        :class="t.target > points ? 'pending' : 'complete'"
         :style="targetStyle(t.target)"
         :title="t.target + ' Points: ' + (t.qty ? t.qty + ' ' : '') + t.reward"
       />
@@ -51,14 +52,13 @@ export default {
     }
   },
   computed: {
+    points() {
+      return this.completed.length
+        ? this.sum(this.completed.map(t => t.rewardQty))
+        : 0;
+    },
     pointsPercent() {
-      if (!this.completed.length) {
-        return 0;
-      }
-
-      const completed = this.completed.map(t => t.rewardQty);
-
-      return (this.sum(completed) / this.obtainable) * 100 + "%";
+      return !this.points ? 0 : (this.points / this.obtainable) * 100 + "%";
     },
     obtainable() {
       return this.sum(this.tasks.map(t => t.rewardQty));
@@ -103,5 +103,10 @@ export default {
   width: 6px;
   top: -2px;
   z-index: 1;
+}
+.targets li.pending {
+  background: #ddd;
+  border: 1px solid #ccc;
+  box-shadow: 0px 0px 1px 1px #aaa;
 }
 </style>
