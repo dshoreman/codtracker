@@ -7,41 +7,43 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 ## [Unreleased]
+### Added
+* New target progress and markers with reward tooltips for point-based events
 
 
 ## [0.4.11] - 2020-04-20
-## Added
+### Added
 * Week 4 tasks for Steel Legion Battlepass
 
 
 ## [0.4.10] - 2020-04-17
-## Added
+### Added
 * Clan Ally event tasks
 * New weekly public and ranked tasks
 
 
 ## [0.4.9] - 2020-04-16
-## Added
+### Added
 * Tenacity Rewarded event tasks
 
 
 ## [0.4.8] - 2020-04-13
-## Added
+### Added
 * Week 3 tasks for the Steel Legion event
 
 
 ## [0.4.7] - 2020-04-10
-## Fixed
+### Fixed
 * Duplicate ID in Ranked MP tasks was preventing updates
 
 
 ## [0.4.6] - 2020-04-10
-## Added
+### Added
 * Weekly Challenge tasks for 10-16/04
 
 
 ## [0.4.5] - 2020-04-09
-## Added
+### Added
 * Easter Egg BR and Prop Hunt events
 
 

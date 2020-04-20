@@ -4,9 +4,10 @@
       <li
         v-for="t in targets"
         :key="t.target"
+        v-b-tooltip.html
         :class="t.target > points ? 'pending' : 'complete'"
         :style="targetStyle(t.target)"
-        :title="t.target + ' Points: ' + (t.qty ? t.qty + ' ' : '') + t.reward"
+        :title="targetTooltip(t)"
       />
     </ul>
 
@@ -72,6 +73,14 @@ export default {
       const width = (target / this.obtainable) * 100;
 
       return "left: calc(" + width + "% - 2px)";
+    },
+    targetTooltip(t) {
+      const colour = t.target <= this.points ? "warning" : "secondary",
+        badgeClass = "badge badge-lg badge-" + colour,
+        badge = '<span class="' + badgeClass + '">' + t.target + "</span>",
+        qty = t.qty ? t.qty + " " : "";
+
+      return qty + t.reward + "<h5>" + badge + "</h5>";
     }
   }
 };
