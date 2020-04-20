@@ -84,13 +84,16 @@ export default {
   top: 4px;
 }
 .targets li {
-  background: white;
-  border: 1px solid black;
-  border-radius: 4px;
+  background: #ffc107;
+  border: 1px solid #ffc106;
+  border-radius: 3px;
+  box-shadow: 0px 0px 1px 1px #999;
+  opacity: 0.7;
+  margin-left: -0.5px;
   position: absolute;
-  height: 8px;
-  width: 8px;
-  top: 2px;
+  height: 12px;
+  width: 6px;
+  top: -2px;
   z-index: 1;
 }
 </style>
