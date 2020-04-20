@@ -6,6 +6,7 @@
       :key="ev.id"
       :name="ev.name"
       :end-time="ev.end"
+      :targets="ev.targets"
       :tasks="findTasks(ev.id)"
       :show-completed="showCompleted"
     />
