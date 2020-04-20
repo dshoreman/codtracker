@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 ## [Unreleased]
+
+
+## [0.5.0] - 2020-04-20
 ### Added
 * New target progress and markers with reward tooltips for point-based events
 
@@ -139,7 +142,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 * Anything else that isn't in a later release
 
 
-[Unreleased]: https://github.com/dshoreman/codtracker/compare/v0.4.11...develop
+[Unreleased]: https://github.com/dshoreman/codtracker/compare/v0.5.0...develop
+[0.5.0]: https://github.com/dshoreman/codtracker/compare/v0.4.11...v0.5.0
 [0.4.11]: https://github.com/dshoreman/codtracker/compare/v0.4.10...v0.4.11
 [0.4.10]: https://github.com/dshoreman/codtracker/compare/v0.4.9...v0.4.10
 [0.4.9]: https://github.com/dshoreman/codtracker/compare/v0.4.8...v0.4.9
