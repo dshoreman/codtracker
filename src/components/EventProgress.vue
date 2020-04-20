@@ -71,9 +71,17 @@ export default {
 
 <style scoped type="sass">
 .progress {
-  height: 4px;
+  height: 8px;
   overflow: visible;
   position: relative;
+}
+.progress-bar {
+  left: 0;
+  position: absolute;
+  height: 4px;
+}
+.progress-bar.bg-warning {
+  top: 4px;
 }
 .targets li {
   background: white;
@@ -82,7 +90,7 @@ export default {
   position: absolute;
   height: 8px;
   width: 8px;
-  top: -3px;
+  top: 2px;
   z-index: 1;
 }
 </style>
