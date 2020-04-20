@@ -44,12 +44,11 @@
     "qty": 100
   }, {
     "target": 120,
-    "reward": "Daily Coin",
+    "reward": "Daily Coins",
     "qty": 3
   }, {
     "target": 160,
-    "reward": "ATV with Reticulated Camo",
-    "qty": 1
+    "reward": "ATV with Reticulated Camo"
   }]
 }, {
   "id": 10,
@@ -73,16 +72,13 @@
   "end": "2020-04-09 00:00:00",
   "targets": [{
     "target": 10,
-    "reward": "Boat - Easter '20",
-    "qty": 1
+    "reward": "Boat - Easter '20"
   }, {
     "target": 20,
-    "reward": "UL736 - Reticulated",
-    "qty": 1
+    "reward": "UL736 - Reticulated"
   }, {
     "target": 30,
-    "reward": "Easter '20 Frame",
-    "qty": 3
+    "reward": "Easter '20 Frame"
   }]
 }, {
   "id": 15,
@@ -102,12 +98,11 @@
     "qty": 100
   }, {
     "target": 120,
-    "reward": "Daily Coin",
+    "reward": "Daily Coins",
     "qty": 3
   }, {
     "target": 160,
-    "reward": "J358 - Easter '20",
-    "qty": 1
+    "reward": "J358 - Easter '20"
   }]
 }, {
   "id": 17,
@@ -115,16 +110,13 @@
   "end": "2020-04-21 00:00:00",
   "targets": [{
     "target": 10,
-    "reward": "Smoke Grenade - Easter '20",
-    "qty": 1
+    "reward": "Smoke Grenade - Easter '20"
   }, {
     "target": 20,
-    "reward": "M21 EBR - Easter '20",
-    "qty": 1
+    "reward": "M21 EBR - Easter '20"
   }, {
     "target": 30,
-    "reward": "ASM10 - Cubic Illusion",
-    "qty": 1
+    "reward": "ASM10 - Cubic Illusion"
   }]
 }, {
   "id": 18,
@@ -148,12 +140,11 @@
     "qty": 100
   }, {
     "target": 120,
-    "reward": "Daily Coin",
+    "reward": "Daily Coins",
     "qty": 3
   }, {
     "target": 160,
-    "reward": "ORV - Easter '20",
-    "qty": 1
+    "reward": "ORV - Easter '20"
   }]
 }, {
   "id": 21,
@@ -165,16 +156,13 @@
   "end": "2020-04-29 00:00:00",
   "targets": [{
     "target": 40,
-    "reward": "S36 - Reticulated",
-    "qty": 1
+    "reward": "S36 - Reticulated"
   }, {
     "target": 80,
-    "reward": "Type 25 - Evil Chip",
-    "qty": 1
+    "reward": "Type 25 - Evil Chip"
   }, {
     "target": 100,
-    "reward": "AK-47 - Jade",
-    "qty": 1
+    "reward": "AK-47 - Jade"
   }]
 }, {
   "id": 23,
@@ -182,16 +170,13 @@
   "end": "2020-04-25 00:00:00",
   "targets": [{
     "target": 10,
-    "reward": "Frag Grenade - Cubic Illusion",
-    "qty": 1
+    "reward": "Frag Grenade - Cubic Illusion"
   }, {
     "target": 20,
-    "reward": "Sticky Grenade - Easter '20",
-    "qty": 1
+    "reward": "Sticky Grenade - Easter '20"
   }, {
     "target": 30,
-    "reward": "Easter '20 Avatar",
-    "qty": 1
+    "reward": "Easter '20 Avatar"
   }]
 }, {
   "id": 24,
@@ -207,12 +192,11 @@
     "qty": 100
   }, {
     "target": 120,
-    "reward": "Daily Coin",
+    "reward": "Daily Coins",
     "qty": 3
   }, {
     "target": 160,
-    "reward": "Parachute - Easter '20",
-    "qty": 1
+    "reward": "Parachute - Easter '20"
   }]
 }, {
   "id": 25,

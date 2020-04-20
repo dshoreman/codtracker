@@ -5,7 +5,7 @@
         v-for="t in targets"
         :key="t.target"
         :style="targetStyle(t.target)"
-        :title="t.target + ' points: ' + t.qty + 'x ' + t.reward"
+        :title="t.target + ' Points: ' + (t.qty ? t.qty + ' ' : '') + t.reward"
       />
     </ul>
 
