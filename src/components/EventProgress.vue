@@ -76,8 +76,10 @@ export default {
     },
     targetTooltip(t) {
       const colour = t.target <= this.points ? "warning" : "secondary",
+        points = this.points > t.target ? t.target : this.points,
+        text = points + "/" + t.target,
         badgeClass = "badge badge-lg badge-" + colour,
-        badge = '<span class="' + badgeClass + '">' + t.target + "</span>",
+        badge = '<span class="' + badgeClass + '">' + text + "</span>",
         qty = t.qty ? t.qty + " " : "";
 
       return qty + t.reward + "<h5>" + badge + "</h5>";
