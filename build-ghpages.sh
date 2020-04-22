@@ -5,6 +5,7 @@ set -e
 npm run build
 
 cd dist
+echo 'codtracker.ga' >> CNAME
 git init
 git add -A
 git commit -m 'deploy'
