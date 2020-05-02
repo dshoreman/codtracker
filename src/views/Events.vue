@@ -38,6 +38,17 @@
       :show-completed="showCompleted"
     />
     <event-details
+      v-for="e in seasonalEvents"
+      :id="e.event"
+      :key="e.event"
+      :name="e.name"
+      :end-time="e.end"
+      label="Seasonal"
+      label-colour="success"
+      :tasks="e.tasks"
+      :show-completed="showCompleted"
+    />
+    <event-details
       v-for="ev in currentEvents"
       :id="ev.id"
       :key="ev.id"
@@ -53,6 +64,7 @@
 <script>
 import eventsJson from "../../data/events.json";
 import featuredJson from "../../data/featured.json";
+import seasonalJson from "../../data/seasonal.json";
 import EventDetails from "../components/EventDetails";
 import tasksJson from "../../data/event_tasks.json";
 
@@ -69,7 +81,8 @@ export default {
   data() {
     return {
       events: eventsJson,
-      featured: featuredJson
+      featured: featuredJson,
+      seasonal: seasonalJson
     };
   },
   computed: {
@@ -78,6 +91,9 @@ export default {
     },
     featuredEvents() {
       return this.featured.filter(e => this.$moment().isBefore(e.end));
+    },
+    seasonalEvents() {
+      return this.seasonal.filter(e => this.$moment().isBefore(e.end));
     }
   },
   methods: {

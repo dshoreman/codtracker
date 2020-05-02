@@ -52,6 +52,9 @@
         >
           <div class="row">
             <div class="col-sm-6">
+              <span v-if="task.bpxp" class="badge badge-success mr-1">
+                +{{ task.bpxp }}
+              </span>
               <span v-if="task.reward == 'Points'" class="badge badge-info">
                 +{{ task.rewardQty }}
               </span>
