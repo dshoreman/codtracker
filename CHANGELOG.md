@@ -9,6 +9,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## [0.6.1] - 2020-05-02
+### Fixed
+* Duplciate IDs for the  last 3 tasks in the Rust the Dust event
+
+
 ## [0.6.0] - 2020-05-02
 ### Added
 * New tasks for the Capture the Flag game mode and new Rust map
@@ -160,7 +165,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 * Anything else that isn't in a later release
 
 
-[Unreleased]: https://github.com/dshoreman/codtracker/compare/v0.6.0...develop
+[Unreleased]: https://github.com/dshoreman/codtracker/compare/v0.6.1...develop
+[0.6.1]: https://github.com/dshoreman/codtracker/compare/v0.6.0...v0.6.1
 [0.6.0]: https://github.com/dshoreman/codtracker/compare/v0.5.1...v0.6.0
 [0.5.1]: https://github.com/dshoreman/codtracker/compare/v0.5.0...v0.5.1
 [0.5.0]: https://github.com/dshoreman/codtracker/compare/v0.4.11...v0.5.0

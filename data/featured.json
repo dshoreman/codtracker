@@ -106,13 +106,13 @@
     "rewardQty": 20,
     "target": 20
   }, {
-    "id": 4,
+    "id": 5,
     "description": "Kill 20 Enemies in Domination Matches on Rust Map",
     "reward": "Points",
     "rewardQty": 20,
     "target": 20
   }, {
-    "id": 4,
+    "id": 6,
     "description": "Kill 20 Enemies in Hardpoint Matches on Rust Map",
     "reward": "Points",
     "rewardQty": 20,
