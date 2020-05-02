@@ -1,0 +1,222 @@
+[{
+  "event": 28,
+  "name": "Boot Camp",
+  "end": "2020-06-06 00:00:00",
+  "tasks": [{
+    "id": 1,
+    "description": "Kill 10 Enemies with Assault Rifles",
+    "reward": "Weapon XP Card - 100",
+    "rewardQty": 10,
+    "bpxp": 6000,
+    "target": 10
+  }, {
+    "id": 2,
+    "description": "Win 3 TDM Matches",
+    "reward": "Credits",
+    "rewardQty": 20,
+    "bpxp": 6000,
+    "target": 3
+  }, {
+    "id": 3,
+    "description": "Kill 5 Enemies with Purifier Operator Skill",
+    "reward": "Avatar - All Hands",
+    "rewardQty": 1,
+    "bpxp": 8000,
+    "target": 5
+  }]
+}, {
+  "event": 29,
+  "name": "Survey and Destroy",
+  "end": "2020-06-06 00:00:00",
+  "tasks": [{
+    "id": 1,
+    "description": "Destroy UAV with FHJ 5 Times in MP Matches",
+    "reward": "Weapon XP Card - 100",
+    "rewardQty": 1,
+    "bpxp": 4000,
+    "target": 5
+  }, {
+    "id": 2,
+    "description": "Use Counter-UAV 5 Times in MP Matches",
+    "reward": "Credits",
+    "rewardQty": 200,
+    "bpxp": 4000,
+    "target": 5
+  }, {
+    "id": 3,
+    "description": "Kill 15 Enemies with Perk Tracker Equipped",
+    "reward": "Special Ops 1 - Desert",
+    "rewardQty": 1,
+    "bpxp": 6000,
+    "target": 15
+  }]
+}, {
+  "event": 30,
+  "name": "Close Quarters Master",
+  "end": "2020-06-06 00:00:00",
+  "tasks": [{
+    "id": 1,
+    "description": "Kill 30 Enemies with SMGs",
+    "reward": "PDW-57 - Desert Snake",
+    "rewardQty": 1,
+    "bpxp": 2000,
+    "target": 30
+  }, {
+    "id": 2,
+    "description": "Kill 20 Enemies with PDW equipped with Holographic Sight",
+    "reward": "Weapon XP Card - 100",
+    "rewardQty": 1,
+    "bpxp": 2000,
+    "target": 20
+  }, {
+    "id": 3,
+    "description": "Kill 20 Enemies with PDW equipped with Quickdraw and Any 2 other attachments (Optics count as an attachment)",
+    "reward": "MSMC - Desert Snake",
+    "rewardQty": 1,
+    "bpxp": 3000,
+    "target": 20
+  }, {
+    "id": 4,
+    "description": "Kill 20 Enemies with MSMC with No Attachments",
+    "reward": "Chicom - Desert Snake",
+    "rewardQty": 1,
+    "bpxp": 3000,
+    "target": 20
+  }, {
+    "id": 5,
+    "description": "Kill 20 Enemies with Chicom Equipped with a Single Attachment (Optics count as an attachment)",
+    "reward": "Credits",
+    "rewardQty": 300,
+    "bpxp": 4000,
+    "target": 20
+  }, {
+    "id": 6,
+    "description": "Kill 20 Enemies with Chicom Equipped with Quickdraw and Any other 1 Attachment (Optics count as an attachment)",
+    "reward": "Pharo",
+    "rewardQty": 1,
+    "bpxp": 4000,
+    "target": 20
+  }, {
+    "id": 7,
+    "description": "Kill 20 Enemies with Pharo in TDM Matches on Rust Map",
+    "reward": "Weapon XP Card - 500",
+    "rewardQty": 2,
+    "bpxp": 6000,
+    "target": 20
+  }, {
+    "id": 8,
+    "description": "Kill 20 Enemies with Pharo Equipped with Quickdraw and Any other 3 Attachments (Optics count as an attachment)",
+    "reward": "Pharo - Bandit",
+    "rewardQty": 1,
+    "bpxp": 6000,
+    "target": 20
+  }]
+}, {
+  "event": 31,
+  "name": "Elite Marksman",
+  "end": "2020-06-06 00:00:00",
+  "tasks": [{
+    "id": 1,
+    "description": "Kill 30 Enemies with Any Weapon",
+    "reward": "KB57 - Desert Snake",
+    "rewardQty": 1,
+    "bpxp": 2000,
+    "target": 30
+  }, {
+    "id": 2,
+    "description": "Kill 20 Enemies with BK57 Equipped with 2 Attachments (Optics count as an attachment)",
+    "reward": "DL Q33 - Sandbox",
+    "rewardQty": 1,
+    "bpxp": 2000,
+    "target": 20
+  }, {
+    "id": 3,
+    "description": "Kill 20 Enemies with DL Q33 Equipped with Stock Attachment",
+    "reward": "RPD - Western Sunset",
+    "rewardQty": 1,
+    "bpxp": 3000,
+    "target": 20
+  }, {
+    "id": 4,
+    "description": "Kill 20 Enemies with RPD Equipped with a Holographic Sight and Any other 3 Attachments (Optics fcount as an attachment)",
+    "reward": "Weapon XP Card - 100",
+    "rewardQty": 2,
+    "bpxp": 3000,
+    "target": 20
+  }, {
+    "id": 5,
+    "description": "Kill 20 Enemies with Shotguns",
+    "reward": "Arctic .50 - Ashen Viper",
+    "rewardQty": 1,
+    "bpxp": 4000,
+    "target": 20
+  }, {
+    "id": 6,
+    "description": "Kill 15 Enemies with Arctic .50 Equipped with Tactical Scope",
+    "reward": "Weapon XP Card - 500",
+    "rewardQty": 1,
+    "bpxp": 4000,
+    "target": 15
+  }, {
+    "id": 7,
+    "description": "Kill 5 Enemies with Pistols",
+    "reward": "Locus",
+    "rewardQty": 1,
+    "bpxp": 6000,
+    "target": 5
+  }, {
+    "id": 8,
+    "description": "Kill 50 Enemies with Locus",
+    "reward": "Locus - Flowing Bronze",
+    "rewardQty": 1,
+    "bpxp": 6000,
+    "target": 50
+  }]
+}, {
+  "event": 32,
+  "name": "Survival of the Fittest",
+  "end": "2020-06-06 00:00:00",
+  "tasks": [{
+    "id": 1,
+    "description": "Open 5 Airdrops in Battle Royale",
+    "reward": "Weapon XP Card - 100",
+    "rewardQty": 1,
+    "bpxp": 4000,
+    "target": 5
+  }, {
+    "id": 2,
+    "description": "Play 5 BR Matches",
+    "reward": "Credits",
+    "rewardQty": 200,
+    "bpxp": 4000,
+    "target": 5
+  }, {
+    "id": 3,
+    "description": "Get into top 10 once with no kills in Battle Royale",
+    "reward": "ORV - Sand Dunes",
+    "rewardQty": 1,
+    "bpxp": 4000,
+    "target": 1
+  }, {
+    "id": 4,
+    "description": "Run Over and Kill 2 Enemies in Battle Royale",
+    "reward": "Wingsuit - Copperhead",
+    "rewardQty": 1,
+    "bpxp": 6000,
+    "target": 2
+  }, {
+    "id": 5,
+    "description": "Kill 20 Enemies in BR Matches",
+    "reward": "ATV - Copperhead",
+    "rewardQty": 1,
+    "bpxp": 6000,
+    "target": 20
+  }, {
+    "id": 6,
+    "description": "Win 2 BR Matches",
+    "reward": "Nomad - Wild Snake",
+    "rewardQty": 1,
+    "bpxp": 6000,
+    "target": 2
+  }]
+}]

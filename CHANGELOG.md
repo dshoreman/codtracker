@@ -9,6 +9,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## [0.6.0] - 2020-05-02
+### Added
+* New tasks for the Capture the Flag game mode and new Rust map
+* Bit of an introduction and some tips at the top of the page
+* Bottom of page is now padded so it's not right up against the window border
+* Support for new categorised events with badge to show group by the title
+* New seasonal tasks for the updated BattlePass levelling format
+* Support for showing an additional BattlePass XP reward with a given task
+
+### Fixed
+* Events with an empty object as the only task no longer show unnamed task with 0/0
+
+
 ## [0.5.1] - 2020-04-20
 ### Added
 * Current points obtained are now shown in target tooltips
@@ -147,7 +160,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 * Anything else that isn't in a later release
 
 
-[Unreleased]: https://github.com/dshoreman/codtracker/compare/v0.5.1...develop
+[Unreleased]: https://github.com/dshoreman/codtracker/compare/v0.6.0...develop
+[0.6.0]: https://github.com/dshoreman/codtracker/compare/v0.5.1...v0.6.0
 [0.5.1]: https://github.com/dshoreman/codtracker/compare/v0.5.0...v0.5.1
 [0.5.0]: https://github.com/dshoreman/codtracker/compare/v0.4.11...v0.5.0
 [0.4.11]: https://github.com/dshoreman/codtracker/compare/v0.4.10...v0.4.11

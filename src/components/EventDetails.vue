@@ -3,7 +3,12 @@
     <div class="card-header" @click="visible = !visible">
       <div class="row">
         <div class="col-9 col-sm-8">
-          <h5 class="mb-0">{{ name }}</h5>
+          <h5 class="mb-0">
+            <span v-if="label" :class="'badge badge-' + labelColour">{{
+              label
+            }}</span>
+            {{ name }}
+          </h5>
           <small>
             ending
             <time :datetime="endTime" :title="endTime">
@@ -35,7 +40,10 @@
     />
 
     <div v-show="visible" class="card-body p-0">
-      <div v-if="tasks.length" class="list-group list-group-flush">
+      <div
+        v-if="tasks.length > 0 && Object.keys(tasks[0]).length !== 0"
+        class="list-group list-group-flush"
+      >
         <div
           v-for="task in tasks"
           v-show="showCompleted || task.target != eventProgress[task.id]"
@@ -44,6 +52,9 @@
         >
           <div class="row">
             <div class="col-sm-6">
+              <span v-if="task.bpxp" class="badge badge-success mr-1">
+                +{{ task.bpxp }}
+              </span>
               <span v-if="task.reward == 'Points'" class="badge badge-info">
                 +{{ task.rewardQty }}
               </span>
@@ -86,6 +97,14 @@ export default {
     name: {
       type: String,
       default: ""
+    },
+    label: {
+      type: String,
+      default: ""
+    },
+    labelColour: {
+      type: String,
+      default: "secondary"
     },
     endTime: {
       type: String,
