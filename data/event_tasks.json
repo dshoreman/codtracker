@@ -1241,4 +1241,55 @@
     "rewardQty": 1,
     "target": 5
   }]
+}, {
+  "event": 26,
+  "tasks": [{
+    "id": 1,
+    "description": "Play 3 CTF Matches",
+    "reward": "Points",
+    "rewardQty": 10,
+    "target": 3
+  }, {
+    "id": 2,
+    "description": "Play 10 CTF Matches",
+    "reward": "Points",
+    "rewardQty": 20,
+    "target": 10
+  }, {
+    "id": 3,
+    "description": "Play 5 CTF Matches on Rust Map",
+    "reward": "Points",
+    "rewardQty": 20,
+    "target": 5
+  }, {
+    "id": 4,
+    "description": "Win 1 CTF Match",
+    "reward": "Points",
+    "rewardQty": 10,
+    "target": 1
+  }, {
+    "id": 5,
+    "description": "Win 5 CTF Matches",
+    "reward": "Points",
+    "rewardQty": 20,
+    "target": 5
+  }, {
+    "id": 6,
+    "description": "Kill 10 Enemies in CTF Matches",
+    "reward": "Points",
+    "rewardQty": 10,
+    "target": 10
+  }, {
+    "id": 7,
+    "description": "Kill 30 Enemies in CTF Matches",
+    "reward": "Points",
+    "rewardQty": 20,
+    "target": 30
+  }, {
+    "id": 8,
+    "description": "Kill 50 Enemies in CTF Matches",
+    "reward": "Points",
+    "rewardQty": 30,
+    "target": 50
+  }]
 }]

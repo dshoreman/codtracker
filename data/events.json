@@ -202,4 +202,21 @@
   "id": 25,
   "name": "Weekly Challenge - MP Ranked Matches",
   "end": "2020-04-29 00:00:00"
+}, {
+  "id": 26,
+  "name": "Capture the Flag: Gold Edition",
+  "end": "2020-05-08 00:00:00",
+  "targets": [{
+    "target": 20,
+    "reward": "Knife - Desert Snake"
+  }, {
+    "target": 50,
+    "reward": "Smoke Grenade - Sandbox"
+  }, {
+    "target": 80,
+    "reward": "Frag Grenade - Ashen Viper"
+  }, {
+    "target": 100,
+    "reward": "AK-47 - Bandit"
+  }]
 }]

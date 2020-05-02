@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 ## [Unreleased]
+### Added
+* New tasks for the Capture the Flag game mode
 
 
 ## [0.5.1] - 2020-04-20
