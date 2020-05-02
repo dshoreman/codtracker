@@ -35,7 +35,10 @@
     />
 
     <div v-show="visible" class="card-body p-0">
-      <div v-if="tasks.length" class="list-group list-group-flush">
+      <div
+        v-if="tasks.length > 0 && Object.keys(tasks[0]).length !== 0"
+        class="list-group list-group-flush"
+      >
         <div
           v-for="task in tasks"
           v-show="showCompleted || task.target != eventProgress[task.id]"

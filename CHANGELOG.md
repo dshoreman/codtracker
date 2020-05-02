@@ -10,6 +10,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 * New tasks for the Capture the Flag game mode
 * Bit of an introduction and some tips at the top of the page
+* Bottom of page is now padded so it's not right up against the window border
+
+### Fixed
+* Events with an empty object as the only task no longer show unnamed task with 0/0
 
 
 ## [0.5.1] - 2020-04-20

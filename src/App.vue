@@ -10,6 +10,12 @@
   </div>
 </template>
 
+<style scope type="sass">
+#app {
+  padding-bottom: 4rem;
+}
+</style>
+
 <script>
 export default {
   data() {
