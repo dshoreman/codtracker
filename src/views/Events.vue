@@ -26,6 +26,18 @@
       </div>
     </div>
     <event-details
+      v-for="e in featuredEvents"
+      :id="e.event"
+      :key="e.event"
+      :name="e.name"
+      :end-time="e.end"
+      label="Featured"
+      label-colour="warning"
+      :targets="e.targets"
+      :tasks="e.tasks"
+      :show-completed="showCompleted"
+    />
+    <event-details
       v-for="ev in currentEvents"
       :id="ev.id"
       :key="ev.id"
@@ -40,6 +52,7 @@
 
 <script>
 import eventsJson from "../../data/events.json";
+import featuredJson from "../../data/featured.json";
 import EventDetails from "../components/EventDetails";
 import tasksJson from "../../data/event_tasks.json";
 
@@ -55,12 +68,16 @@ export default {
   },
   data() {
     return {
-      events: eventsJson
+      events: eventsJson,
+      featured: featuredJson
     };
   },
   computed: {
     currentEvents() {
       return this.events.filter(e => this.$moment().isBefore(e.end));
+    },
+    featuredEvents() {
+      return this.featured.filter(e => this.$moment().isBefore(e.end));
     }
   },
   methods: {

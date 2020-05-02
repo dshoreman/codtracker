@@ -8,9 +8,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 ### Added
-* New tasks for the Capture the Flag game mode
+* New tasks for the Capture the Flag game mode and new Rust map
 * Bit of an introduction and some tips at the top of the page
 * Bottom of page is now padded so it's not right up against the window border
+* Support for new categorised events with badge to show group by the title
 
 ### Fixed
 * Events with an empty object as the only task no longer show unnamed task with 0/0

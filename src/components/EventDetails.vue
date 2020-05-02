@@ -3,7 +3,12 @@
     <div class="card-header" @click="visible = !visible">
       <div class="row">
         <div class="col-9 col-sm-8">
-          <h5 class="mb-0">{{ name }}</h5>
+          <h5 class="mb-0">
+            <span v-if="label" :class="'badge badge-' + labelColour">{{
+              label
+            }}</span>
+            {{ name }}
+          </h5>
           <small>
             ending
             <time :datetime="endTime" :title="endTime">
@@ -89,6 +94,14 @@ export default {
     name: {
       type: String,
       default: ""
+    },
+    label: {
+      type: String,
+      default: ""
+    },
+    labelColour: {
+      type: String,
+      default: "secondary"
     },
     endTime: {
       type: String,
