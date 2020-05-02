@@ -1,7 +1,7 @@
 [{
   "event": 28,
   "name": "Boot Camp",
-  "end": "2020-05-08 00:00:00",
+  "end": "2020-06-06 00:00:00",
   "tasks": [{
     "id": 1,
     "description": "Kill 10 Enemies with Assault Rifles",
@@ -27,7 +27,7 @@
 }, {
   "event": 29,
   "name": "Survey and Destroy",
-  "end": "2020-05-08 00:00:00",
+  "end": "2020-06-06 00:00:00",
   "tasks": [{
     "id": 1,
     "description": "Destroy UAV with FHJ 5 Times in MP Matches",
@@ -53,7 +53,7 @@
 }, {
   "event": 30,
   "name": "Close Quarters Master",
-  "end": "2020-05-08 00:00:00",
+  "end": "2020-06-06 00:00:00",
   "tasks": [{
     "id": 1,
     "description": "Kill 30 Enemies with SMGs",
@@ -114,7 +114,7 @@
 }, {
   "event": 31,
   "name": "Elite Marksman",
-  "end": "2020-05-08 00:00:00",
+  "end": "2020-06-06 00:00:00",
   "tasks": [{
     "id": 1,
     "description": "Kill 30 Enemies with Any Weapon",
@@ -175,7 +175,7 @@
 }, {
   "event": 32,
   "name": "Survival of the Fittest",
-  "end": "2020-05-08 00:00:00",
+  "end": "2020-06-06 00:00:00",
   "tasks": [{
     "id": 1,
     "description": "Open 5 Airdrops in Battle Royale",
