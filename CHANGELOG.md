@@ -9,6 +9,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## [0.7.0] - 2020-06-06
+### Added
+* New seasonal and featured tasks (Poltergeist, Cordite etc)
+
+
 ## [0.6.2] - 2020-05-02
 ### Fixed
 * Fixed end date of featured events
@@ -16,7 +21,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [0.6.1] - 2020-05-02
 ### Fixed
-* Duplciate IDs for the  last 3 tasks in the Rust the Dust event
+* Duplicate IDs for the last 3 tasks in the Rust the Dust event
 
 
 ## [0.6.0] - 2020-05-02
@@ -170,7 +175,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 * Anything else that isn't in a later release
 
 
-[Unreleased]: https://github.com/dshoreman/codtracker/compare/v0.6.2...develop
+[Unreleased]: https://github.com/dshoreman/codtracker/compare/v0.7.0...develop
+[0.7.0]: https://github.com/dshoreman/codtracker/compare/v0.6.2...v0.7.0
 [0.6.2]: https://github.com/dshoreman/codtracker/compare/v0.6.1...v0.6.2
 [0.6.1]: https://github.com/dshoreman/codtracker/compare/v0.6.0...v0.6.1
 [0.6.0]: https://github.com/dshoreman/codtracker/compare/v0.5.1...v0.6.0
