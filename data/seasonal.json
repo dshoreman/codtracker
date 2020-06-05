@@ -219,4 +219,117 @@
     "bpxp": 6000,
     "target": 2
   }]
+}, {
+  "event": 33,
+  "name": "Gunslinger",
+  "end": "2020-06-10 00:00:00",
+  "tasks": [{
+    "id": 1,
+    "description": "Kill 30 Enemies in 1v1 Duel Mode",
+    "reward": "ASM10 - Desert Snake",
+    "rewardQty": 1,
+    "bpxp": 2000,
+    "target": 30
+  }, {
+    "id": 2,
+    "description": "Kill 15 Enemies with Shotguns in 1v1 Duel Mode",
+    "reward": "BY15 - Ashen Viper",
+    "rewardQty": 1,
+    "bpxp": 2000,
+    "target": 15
+  }, {
+    "id": 3,
+    "description": "Kill 15 Enemies with Sniper Rifles in 1v1 Duel Mode",
+    "reward": "DL Q33 - Ashen Viper",
+    "rewardQty": 1,
+    "bpxp": 3000,
+    "target": 15
+  }, {
+    "id": 4,
+    "description": "Win 5 Matches in 1v1 Duel Mode",
+    "reward": "BK57 - Ashen Viper",
+    "rewardQty": 1,
+    "bpxp": 4000,
+    "target": 5
+  }, {
+    "id": 5,
+    "description": "Kill 10 Enemies with Pistols in 1v1 Duel Mode",
+    "reward": "MW11 - Ashen Viper",
+    "rewardQty": 1,
+    "bpxp": 4000,
+    "target": 10
+  }, {
+    "id": 6,
+    "description": "Win 10 Matches in 1v1 Duel on Saloon Map",
+    "reward": "Cordite",
+    "rewardQty": 1,
+    "bpxp": 5000,
+    "target": 10
+  }]
+}, {
+  "event": 34,
+  "name": "Master Operator",
+  "end": "2020-06-10 00:00:00",
+  "tasks": [{
+    "id": 1,
+    "description": "Kill 10 Enemies with Purifier Operator Skill",
+    "reward": "Weapon XP Card (100)",
+    "rewardQty": 1,
+    "bpxp": 4000,
+    "target": 10
+  }, {
+    "id": 2,
+    "description": "Kill 10 Enemies with Death Machine Operator Skill",
+    "reward": "Credits x300",
+    "rewardQty": 1,
+    "bpxp": 4000,
+    "target": 10
+  }, {
+    "id": 3,
+    "description": "Kill 10 Enemies with Sparrow Operator Skill",
+    "reward": "LK24 - Ashen Viper",
+    "rewardQty": 1,
+    "bpxp": 6000,
+    "target": 10
+  }, {
+    "id": 4,
+    "description": "Kill 5 Enemies with Gravity Spikes Operator Skill",
+    "reward": "All Hands Frame",
+    "rewardQty": 1,
+    "bpxp": 6000,
+    "target": 5
+  }]
+}, {
+  "event": 35,
+  "name": "Shock & Awe",
+  "end": "2020-06-10 00:00:00",
+  "tasks": [{
+    "id": 1,
+    "description": "Kill 5 Enemies in Domination Matches with Trip Mines",
+    "reward": "Weapon XP Card (100)",
+    "rewardQty": 1,
+    "bpxp": 4000,
+    "target": 5
+  }, {
+    "id": 2,
+    "description": "Kill 20 Enemies in MP Matches with Hard Wired Perk",
+    "reward": "Credits x300",
+    "rewardQty": 1,
+    "bpxp": 4000,
+    "target": 20
+  }, {
+    "id": 3,
+    "description": "Kill 10 Enemies in MP Matches with Hunter Killer Drone Scorestreak",
+    "reward": "Weapon XP Card (500)",
+    "rewardQty": 1,
+    "bpxp": 6000,
+    "target": 10
+  }, {
+    "id": 4,
+    "description": "Kill 20 Enemies in MP Matches with Cold-Blooded Perk",
+    "reward": "Cryo Bomb",
+    "rewardQty": 1,
+    "bpxp": 6000,
+    "target": 20
+  }]
 }]
