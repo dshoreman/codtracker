@@ -9,6 +9,24 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## [0.7.3] - 2020-06-28
+### Fixed
+* 'K/D Critical' event used a duplicated ID
+
+
+## [0.7.2] - 2020-06-28
+### Added
+* Seasonal battlepass tasks
+
+### Fixed
+* Tasks with 'Credits x300' etc now use proper quantities
+
+
+## [0.7.1] - 2020-06-11
+### Added
+* First featured tasks for June
+
+
 ## [0.7.0] - 2020-06-06
 ### Added
 * New seasonal and featured tasks (Poltergeist, Cordite etc)
@@ -175,7 +193,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 * Anything else that isn't in a later release
 
 
-[Unreleased]: https://github.com/dshoreman/codtracker/compare/v0.7.0...develop
+[Unreleased]: https://github.com/dshoreman/codtracker/compare/v0.7.3...develop
+[0.7.3]: https://github.com/dshoreman/codtracker/compare/v0.7.2...v0.7.3
+[0.7.2]: https://github.com/dshoreman/codtracker/compare/v0.7.1...v0.7.2
+[0.7.1]: https://github.com/dshoreman/codtracker/compare/v0.7.0...v0.7.1
 [0.7.0]: https://github.com/dshoreman/codtracker/compare/v0.6.2...v0.7.0
 [0.6.2]: https://github.com/dshoreman/codtracker/compare/v0.6.1...v0.6.2
 [0.6.1]: https://github.com/dshoreman/codtracker/compare/v0.6.0...v0.6.1
