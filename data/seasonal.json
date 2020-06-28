@@ -280,8 +280,8 @@
   }, {
     "id": 2,
     "description": "Kill 10 Enemies with Death Machine Operator Skill",
-    "reward": "Credits x300",
-    "rewardQty": 1,
+    "reward": "Credits",
+    "rewardQty": 300,
     "bpxp": 4000,
     "target": 10
   }, {
@@ -313,8 +313,8 @@
   }, {
     "id": 2,
     "description": "Kill 20 Enemies in MP Matches with Hard Wired Perk",
-    "reward": "Credits x300",
-    "rewardQty": 1,
+    "reward": "Credits",
+    "rewardQty": 300,
     "bpxp": 4000,
     "target": 20
   }, {
@@ -331,5 +331,353 @@
     "rewardQty": 1,
     "bpxp": 6000,
     "target": 20
+  }]
+}, {
+  "event": 40,
+  "name": "K/D Critical",
+  "end": "2020-07-10 00:00:00",
+  "tasks": [{
+    "id": 1,
+    "description": "Earn Double Kill Medal in MP Matches 8 Times",
+    "reward": "Credits",
+    "rewardQty": 300,
+    "bpxp": 2000,
+    "target": 8
+  }, {
+    "id": 2,
+    "description": "Earn Triple Kill Medal in MP Matches 5 Times",
+    "reward": "Weapon XP Card (500)",
+    "rewardQty": 1,
+    "bpxp": 4000,
+    "target": 5
+  }, {
+    "id": 3,
+    "description": "Earn Survivor Medal in MP Matches 3 Times",
+    "reward": "Calling Card - Death Stare",
+    "rewardQty": 1,
+    "bpxp": 6000,
+    "target": 3
+  }, {
+    "id": 4,
+    "description": "Earn 200 Medals in MP Matches",
+    "reward": "Chopper",
+    "rewardQty": 1,
+    "bpxp": 6000,
+    "target": 200
+  }]
+}, {
+  "event": 41,
+  "name": "Brothers in Arms",
+  "end": "2020-07-10 00:00:00",
+  "tasks": [{
+    "id": 1,
+    "description": "Play 10 Matches with Friends",
+    "reward": "Weapon XP Card (100)",
+    "rewardQty": 1,
+    "bpxp": 4000,
+    "target": 10
+  }, {
+    "id": 2,
+    "description": "Kill 10 Enemies in MP Ranked Matches with perk Tracker equipped",
+    "reward": "Credits",
+    "rewardQty": 300,
+    "bpxp": 4000,
+    "target": 10
+  }, {
+    "id": 3,
+    "description": "Win 7 MP Ranked Matches with perk Hardline equipped",
+    "reward": "RPD - Desert Hex",
+    "rewardQty": 1,
+    "bpxp": 6000,
+    "target": 7
+  }, {
+    "id": 4,
+    "description": "Win 5 MP Matches playing with Friends",
+    "reward": "Calling Card - Glowing Eyes",
+    "rewardQty": 1,
+    "bpxp": 6000,
+    "target": 5
+  }]
+}, {
+  "event": 42,
+  "name": "Rocket Arm",
+  "end": "2020-07-10 00:00:00",
+  "tasks": [{
+    "id": 1,
+    "description": "Use Smoke Grenades 10 Times in MP Matches",
+    "reward": "Sticky Grenade - Flesh Wound",
+    "rewardQty": 1,
+    "bpxp": 2000,
+    "target": 10
+  }, {
+    "id": 2,
+    "description": "Kill 5 Enemies with Sticky Grenades",
+    "reward": "Frag Grenade - Flesh Wound",
+    "rewardQty": 1,
+    "bpxp": 2000,
+    "target": 5
+  }, {
+    "id": 3,
+    "description": "Kill 5 Enemies with Frag Grenades",
+    "reward": "Weapon XP Card (100)",
+    "rewardQty": 1,
+    "bpxp": 3000,
+    "target": 5
+  }, {
+    "id": 4,
+    "description": "Kill 10 Enemies with Trip Mines in MP Matches",
+    "reward": "Credits",
+    "rewardQty": 300,
+    "bpxp": 4000,
+    "target": 10
+  }, {
+    "id": 5,
+    "description": "Break any enemy's Scorestreak with EMP in MP Matches 5 times",
+    "reward": "Calling Card - Boneyard",
+    "rewardQty": 1,
+    "bpxp": 4000,
+    "target": 5
+  }, {
+    "id": 6,
+    "description": "Obtain Bull's Eye Medal 5 Times",
+    "reward": "M4 - Isometric",
+    "rewardQty": 1,
+    "bpxp": 5000,
+    "target": 5
+  }]
+}, {
+  "event": 43,
+  "name": "Dine & Dash",
+  "end": "2020-07-10 00:00:00",
+  "tasks": [{
+    "id": 1,
+    "description": "Play 5 BR Matches",
+    "reward": "Weapon XP Card (100)",
+    "rewardQty": 1,
+    "bpxp": 4000,
+    "target": 5
+  }, {
+    "id": 2,
+    "description": "Enter the top 10 in Battle Royale once",
+    "reward": "Credits",
+    "rewardQty": 200,
+    "bpxp": 4000,
+    "target": 1
+  }, {
+    "id": 3,
+    "description": "Open Airdrops in Battle Royale 5 Times",
+    "reward": "Calling Card - Revive",
+    "rewardQty": 1,
+    "bpxp": 4000,
+    "target": 5
+  }, {
+    "id": 4,
+    "description": "Kill 10 Enemies in Diner in Battle Royale",
+    "reward": "Wingsuit - Desert Hex",
+    "rewardQty": 1,
+    "bpxp": 6000,
+    "target": 10
+  }, {
+    "id": 5,
+    "description": "Enter the top 10 in Battle Royale 3 Times",
+    "reward": "ORV - Isometric",
+    "rewardQty": 1,
+    "bpxp": 6000,
+    "target": 3
+  }, {
+    "id": 6,
+    "description": "Run over and kill 2 Enemies while driving a vehicle in Battle Royale",
+    "reward": "Ruin - Tangled Web",
+    "rewardQty": 1,
+    "bpxp": 6000,
+    "target": 2
+  }]
+}, {
+  "event": 44,
+  "name": "Super Soldier",
+  "end": "2020-07-10 00:00:00",
+  "tasks": [{
+    "id": 1,
+    "description": "Kill 30 Enemies with any weapon",
+    "reward": "UL736 - Flesh Wound",
+    "rewardQty": 1,
+    "bpxp": 2000,
+    "target": 30
+  }, {
+    "id": 2,
+    "description": "Kill 20 Enemies with UL736 in Domination Matches",
+    "reward": "S36 - Flesh Wound",
+    "rewardQty": 1,
+    "bpxp": 2000,
+    "target": 20
+  }, {
+    "id": 3,
+    "description": "Kill 20 Enemies with S36 Equipped with Foregrip attachment",
+    "reward": "Knife - Flesh Wound",
+    "rewardQty": 1,
+    "bpxp": 3000,
+    "target": 20
+  }, {
+    "id": 4,
+    "description": "Kill 20 Enemies with Melee Attacks",
+    "reward": "Calling Card - Neigh Slayer",
+    "rewardQty": 1,
+    "bpxp": 3000,
+    "target": 20
+  }, {
+    "id": 5,
+    "description": "Kill 20 Enemies with Sentry Gun in Hardpoint Matches",
+    "reward": "ASM10 - Isometric",
+    "rewardQty": 1,
+    "bpxp": 4000,
+    "target": 20
+  }, {
+    "id": 6,
+    "description": "Kill 50 Enemies with ASM10 Assault Rifle equipped with Quickdraw attachment",
+    "reward": "HVK-30",
+    "rewardQty": 1,
+    "bpxp": 4000,
+    "target": 50
+  }, {
+    "id": 7,
+    "description": "Kill 20 Enemies with HVK-30 with no Attachments",
+    "reward": "Weapon XP Card (500)",
+    "rewardQty": 1,
+    "bpxp": 6000,
+    "target": 20
+  }, {
+    "id": 8,
+    "description": "Kill 20 Enemies with HVK-30 Equipped the Foregrip Attachment and 3 Other Attachments (Optics count as an attachment)",
+    "reward": "HVK-30 - Isometric",
+    "rewardQty": 1,
+    "bpxp": 6000,
+    "target": 20
+  }]
+}, {
+  "event": 45,
+  "name": "Lock, Stock, Barrel",
+  "end": "2020-07-10 00:00:00",
+  "tasks": [{
+    "id": 1,
+    "description": "Kill 80 Enemies with ARs",
+    "reward": "M4LMG - Desert Hex",
+    "rewardQty": 1,
+    "bpxp": 2000,
+    "target": 80
+  }, {
+    "id": 2,
+    "description": "Kill 50 Enemies with an M4LMG Weapon with no attachments",
+    "reward": "Calling Card - Sunken Eyes",
+    "rewardQty": 1,
+    "bpxp": 2000,
+    "target": 50
+  }, {
+    "id": 3,
+    "description": "Kill 20 Enemies with Pistols in MP Matches",
+    "reward": "PDW-57 - Desert Hex",
+    "rewardQty": 1,
+    "bpxp": 3000,
+    "target": 20
+  }, {
+    "id": 4,
+    "description": "Kill 40 Enemies with PDW equipped with Quickdraw and 2 other attachments of your choice (Optics count as an attachment)",
+    "reward": "HS0405 - Desert Hex",
+    "rewardQty": 1,
+    "bpxp": 3000,
+    "target": 40
+  }, {
+    "id": 5,
+    "description": "Kill 20 Enemies with a HS0405 Weapon equipped with 1 attachment (Optics count as an attachment)",
+    "reward": "M21 EBR - Desert Hex",
+    "rewardQty": 1,
+    "bpxp": 4000,
+    "target": 20
+  }, {
+    "id": 6,
+    "description": "Kill 20 Enemies with an M21 EBR Weapon equipped with Stock Attachment",
+    "reward": "Man-O-War",
+    "rewardQty": 1,
+    "bpxp": 4000,
+    "target": 20
+  }, {
+    "id": 7,
+    "description": "Kill 20 Enemies with Man-O-War Equipped with no Attachments",
+    "reward": "Weapon XP Card (500)",
+    "rewardQty": 1,
+    "bpxp": 6000,
+    "target": 20
+  }, {
+    "id": 8,
+    "description": "Kill 20 Enemies with Man-O-War Equipped with Extended Mag and 3 other attachments (Optics count as an attachment)",
+    "reward": "Man-O-War - Isometric",
+    "rewardQty": 1,
+    "bpxp": 6000,
+    "target": 20
+  }]
+}, {
+  "event": 46,
+  "name": "Highlight Reel",
+  "end": "2020-07-10 00:00:00",
+  "tasks": [{
+    "id": 1,
+    "description": "Use Predator Missile 5 Times in MP Matches",
+    "reward": "Credits",
+    "rewardQty": 200,
+    "bpxp": 2000,
+    "target": 5
+  }, {
+    "id": 2,
+    "description": "Capture the Point 10 Times in Hardpoint Matches",
+    "reward": "LK24 - Flesh Wound",
+    "rewardQty": 1,
+    "bpxp": 2000,
+    "target": 10
+  }, {
+    "id": 3,
+    "description": "Kill 10 Enemies with headshots in MP Matches",
+    "reward": "Arctic .50 - Flesh Wound",
+    "rewardQty": 1,
+    "bpxp": 4000,
+    "target": 10
+  }, {
+    "id": 4,
+    "description": "Kill 10 Enemies with headshots with Arctic.50 with no attachments",
+    "reward": "Calling Card - Skull Ray",
+    "rewardQty": 1,
+    "bpxp": 6000,
+    "target": 10
+  }, {
+    "id": 5,
+    "description": "Consecutively Kill 15 Enemies in MP matches without dying",
+    "reward": "Lev Kravchenko - Tin Stitched",
+    "rewardQty": 1,
+    "bpxp": 4000,
+    "target": 1
+  }]
+}, {
+  "event": 47,
+  "name": "Heavy Hitter",
+  "end": "2020-07-10 00:00:00",
+  "tasks": [{
+    "id": 1,
+    "description": "Kill 10 Enemies with LMGs",
+    "reward": "Credits",
+    "rewardQty": 200,
+    "bpxp": 6000,
+    "target": 10
+  }, {
+    "id": 2,
+    "description": "Win 3 Frontline Matches",
+    "reward": "Weapon XP Card - 500",
+    "rewardQty": 1,
+    "bpxp": 6000,
+    "target": 3
+  }, {
+    "id": 3,
+    "description": "Kill 10 Enemies with War Machine Operator Skill",
+    "reward": "Calling Card - Hot Box",
+    "rewardQty": 1,
+    "bpxp": 8000,
+    "target": 10
   }]
 }]
