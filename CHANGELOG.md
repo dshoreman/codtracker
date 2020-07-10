@@ -9,6 +9,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## [0.7.6] - 2020-07-10
+### Fixed
+* Wrong target for the 'kill 10 as juggernaut' task
+
+
 ## [0.7.5] - 2020-07-10
 ### Fixed
 * Broken expiry date on Smoke Bomber event
@@ -205,7 +210,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 * Anything else that isn't in a later release
 
 
-[Unreleased]: https://github.com/dshoreman/codtracker/compare/v0.7.5...develop
+[Unreleased]: https://github.com/dshoreman/codtracker/compare/v0.7.6...develop
+[0.7.6]: https://github.com/dshoreman/codtracker/compare/v0.7.5...v0.7.6
 [0.7.5]: https://github.com/dshoreman/codtracker/compare/v0.7.4...v0.7.5
 [0.7.4]: https://github.com/dshoreman/codtracker/compare/v0.7.3...v0.7.4
 [0.7.3]: https://github.com/dshoreman/codtracker/compare/v0.7.2...v0.7.3
