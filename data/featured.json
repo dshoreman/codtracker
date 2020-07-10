@@ -455,7 +455,7 @@
 }, {
   "event": "F1",
   "name": "Smoke Bomber Challenge",
-  "end": "2020-07- 00:00:00",
+  "end": "2020-07-13 00:00:00",
   "targets": [{
     "target": 20,
     "reward": "Smoke Grenade - Flesh Wound"
