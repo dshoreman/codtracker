@@ -552,7 +552,7 @@
     "description": "Kill 10 Enemies as a Juggernaut in Juggernaut Matches",
     "reward": "Points",
     "rewardQty": 10,
-    "target": 1
+    "target": 10
   }, {
     "id": 4,
     "description": "Win 1 Juggernaut Match",
