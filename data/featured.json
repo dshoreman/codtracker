@@ -612,7 +612,7 @@
     "description": "Play 1 Match in MP mode on Highrise Map",
     "reward": "Points",
     "rewardQty": 10,
-    "target": 3
+    "target": 1
   }, {
     "id": 2,
     "description": "Play 3 Matches in MP mode on Highrise Map",
