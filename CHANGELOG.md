@@ -9,6 +9,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## [0.7.7] - 2020-07-10
+### Added
+* Missing "Play 1 match" task for Highrise
+
+
 ## [0.7.6] - 2020-07-10
 ### Fixed
 * Wrong target for the 'kill 10 as juggernaut' task
@@ -210,7 +215,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 * Anything else that isn't in a later release
 
 
-[Unreleased]: https://github.com/dshoreman/codtracker/compare/v0.7.6...develop
+[Unreleased]: https://github.com/dshoreman/codtracker/compare/v0.7.7...develop
+[0.7.7]: https://github.com/dshoreman/codtracker/compare/v0.7.6...v0.7.7
 [0.7.6]: https://github.com/dshoreman/codtracker/compare/v0.7.5...v0.7.6
 [0.7.5]: https://github.com/dshoreman/codtracker/compare/v0.7.4...v0.7.5
 [0.7.4]: https://github.com/dshoreman/codtracker/compare/v0.7.3...v0.7.4
