@@ -680,4 +680,145 @@
     "bpxp": 8000,
     "target": 10
   }]
+}, {
+  "event": "S1",
+  "name": "Maximum Efficiency",
+  "end": "2020-08-06 00:00:00",
+  "tasks": [{
+    "id": 1,
+    "description": "Kill 20 Enemies in MP matches",
+    "reward": "Concussion Grenade - Arctic Digital",
+    "rewardQty": 1,
+    "bpxp": 1000,
+    "target": 20
+  }, {
+    "id": 2,
+    "description": "Kill 20 Enemies with the DR-H available in the Battle Pass",
+    "reward": "AK-47 - Arctic Digital",
+    "rewardQty": 1,
+    "bpxp": 1000,
+    "target": 20
+  }, {
+    "id": 3,
+    "description": "Kill 20 Enemies with AK-47 with Tactical Scope",
+    "reward": "Type 25 - Arctic Digital",
+    "rewardQty": 1,
+    "bpxp": 1000,
+    "target": 20
+  }, {
+    "id": 4,
+    "description": "Get Payback and Kill the enemy that killed you 3 times",
+    "reward": "Calling Card - Inferno",
+    "rewardQty": 1,
+    "bpxp": 2000,
+    "target": 3
+  }, {
+    "id": 5,
+    "description": "Kill 20 Enemies with Type 25 equipped with any 1 attachment (Optics included)",
+    "reward": "ICR-1 - Persisted",
+    "rewardQty": 1,
+    "bpxp": 3000,
+    "target": 20
+  }, {
+    "id": 6,
+    "description": "Kill 20 Enemies with ICR equipped with Quickdraw and any other 1 attachment (Optics included)",
+    "reward": "HBRa3",
+    "rewardQty": 1,
+    "bpxp": 4000,
+    "target": 20
+  }, {
+    "id": 7,
+    "description": "Kill 20 Enemies with HBRa3 with no Attachments",
+    "reward": "Weapon XP Card (500)",
+    "rewardQty": 1,
+    "bpxp": 5000,
+    "target": 20
+  }, {
+    "id": 8,
+    "description": "Kill 30 Enemies with HBRa3 Equipped with Quickdraw and other 3 attachments (Optics included)",
+    "reward": "HBRa3 - Persisted",
+    "rewardQty": 1,
+    "bpxp": 6000,
+    "target": 30
+  }]
+}, {
+  "event": "S2",
+  "name": "Master Operator",
+  "end": "2020-08-06 00:00:00",
+  "tasks": [{
+    "id": 1,
+    "description": "Use Gravity Spikes operator skill 10 times in MP matches",
+    "reward": "Credits",
+    "rewardQty": 300,
+    "bpxp": 1000,
+    "target": 10
+  }, {
+    "id": 2,
+    "description": "Use Sparrow operator skill 10 times on Highrise map",
+    "reward": "Weapon XP Card - 500",
+    "rewardQty": 1,
+    "bpxp": 2000,
+    "target": 10
+  }, {
+    "id": 3,
+    "description": "Kill 5 Enemies with Purifier operator skill",
+    "reward": "DL Q33 - Arctic Digital",
+    "rewardQty": 1,
+    "bpxp": 4000,
+    "target": 5
+  }, {
+    "id": 4,
+    "description": "Kill 10 Enemies with H.I.V.E operator skill",
+    "reward": "Calling Card - Takeoff",
+    "rewardQty": 1,
+    "bpxp": 6000,
+    "target": 10
+  }]
+}, {
+  "event": "S3",
+  "name": "Survival of the Fittest",
+  "end": "2020-08-06 00:00:00",
+  "tasks": [{
+    "id": 1,
+    "description": "Play 3 BR Matches",
+    "reward": "Defender - Arctic Digital",
+    "rewardQty": 1,
+    "bpxp": 1000,
+    "target": 3
+  }, {
+    "id": 2,
+    "description": "Explode 10 Barrels in Battle Royale",
+    "reward": "ORV - Wasteland Red",
+    "rewardQty": 1,
+    "bpxp": 1000,
+    "target": 10
+  }, {
+    "id": 3,
+    "description": "Travel 300 Metres with a Tank in Battle Royale",
+    "reward": "RUS-79U - Arctic Digital",
+    "rewardQty": 1,
+    "bpxp": 2000,
+    "target": 10
+  }, {
+    "id": 4,
+    "description": "Shoot Down a Helicopter in Battle Royale",
+    "reward": "Motorcycle - Arctic Digital",
+    "rewardQty": 1,
+    "bpxp": 3000,
+    "target": 1
+  }, {
+    "id": 5,
+    "description": "Shoot 10 Enemies from the Tank in Battle Royale",
+    "reward": "Calling Card - Reclaimed",
+    "rewardQty": 1,
+    "bpxp": 4000,
+    "target": 10
+  }, {
+    "id": 6,
+    "description": "Kill 20 Enemies as Spec Ops 3 - Arctic in Battle Royale",
+    "reward": "Pharo - Sight Unseen",
+    "rewardQty": 1,
+    "bpxp": 5000,
+    "target": 20
+  }]
 }]

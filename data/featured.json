@@ -452,4 +452,184 @@
     "rewardQty": 20,
     "target": 3
   }]
+}, {
+  "event": "F1",
+  "name": "Smoke Bomber Challenge",
+  "end": "2020-07- 00:00:00",
+  "targets": [{
+    "target": 20,
+    "reward": "Smoke Grenade - Flesh Wound"
+  }, {
+    "target": 50,
+    "reward": "Type 25 - Flesh Wound"
+  }, {
+    "target": 80,
+    "reward": "Calling Card - Bury the Hatchet"
+  }, {
+    "target": 100,
+    "reward": "Smoke Bomber"
+  }],
+  "tasks": [{
+    "id": 1,
+    "description": "Play 5 BR Matches",
+    "reward": "Points",
+    "rewardQty": 20,
+    "target": 5
+  }, {
+    "id": 2,
+    "description": "Travel 300 metres with a tank in BR",
+    "reward": "Points",
+    "rewardQty": 20,
+    "target": 300
+  }, {
+    "id": 3,
+    "description": "Survive in BR for 30 min (1800 Sec)",
+    "reward": "Points",
+    "rewardQty": 20,
+    "target": 1800
+  }, {
+    "id": 4,
+    "description": "Use Class Skills 4 Times in BR Matches",
+    "reward": "Points",
+    "rewardQty": 10,
+    "target": 4
+  }, {
+    "id": 5,
+    "description": "Glide 60 Metres in Battle Royale",
+    "reward": "Points",
+    "rewardQty": 10,
+    "target": 60
+  }, {
+    "id": 6,
+    "description": "Enter the top 10 in BR once, no kill needed",
+    "reward": "Points",
+    "rewardQty": 20,
+    "target": 1
+  }, {
+    "id": 7,
+    "description": "Kill 15 Enemies in Battle Royale",
+    "reward": "Points",
+    "rewardQty": 20,
+    "target": 15
+  }, {
+    "id": 8,
+    "description": "Land in Harbour 3 Times",
+    "reward": "Points",
+    "rewardQty": 20,
+    "target": 3
+  }]
+}, {
+  "event": "F2",
+  "name": "Juggernaut Mania",
+  "end": "2020-07-17 00:00:00",
+  "targets": [{
+    "target": 30,
+    "reward": "Spray - Monster Truck"
+  }, {
+    "target": 40,
+    "reward": "J358 - Stream"
+  }, {
+    "target": 80,
+    "reward": "Gravedigger Frame"
+  }, {
+    "target": 100,
+    "reward": "M4LMG - Sight Unseen"
+  }],
+  "tasks": [{
+    "id": 1,
+    "description": "Play 1 Juggernaut Match",
+    "reward": "Points",
+    "rewardQty": 10,
+    "target": 1
+  }, {
+    "id": 2,
+    "description": "Play 3 Juggernaut Matches",
+    "reward": "Points",
+    "rewardQty": 20,
+    "target": 3
+  }, {
+    "id": 3,
+    "description": "Kill 10 Enemies as a Juggernaut in Juggernaut Matches",
+    "reward": "Points",
+    "rewardQty": 10,
+    "target": 1
+  }, {
+    "id": 4,
+    "description": "Win 1 Juggernaut Match",
+    "reward": "Points",
+    "rewardQty": 10,
+    "target": 1
+  }, {
+    "id": 5,
+    "description": "Become MVP in a Juggernaut Match",
+    "reward": "Points",
+    "rewardQty": 15,
+    "target": 1
+  }, {
+    "id": 6,
+    "description": "Become a Juggernaut once",
+    "reward": "Points",
+    "rewardQty": 15,
+    "target": 1
+  }, {
+    "id": 7,
+    "description": "Defeat a Juggernaut 1 Time",
+    "reward": "Points",
+    "rewardQty": 10,
+    "target": 1
+  }, {
+    "id": 8,
+    "description": "Become a Juggernaut 5 Times",
+    "reward": "Points",
+    "rewardQty": 20,
+    "target": 5
+  }, {
+    "id": 9,
+    "description": "Defeat a Juggernaut 3 Times",
+    "reward": "Points",
+    "rewardQty": 20,
+    "target": 3
+  }]
+}, {
+  "event": "F3",
+  "name": "Highrise Brawl",
+  "end": "2020-07-17 00:00:00",
+  "targets": [{
+    "target": 20,
+    "reward": "150 Credits"
+  }, {
+    "target": 30,
+    "reward": "Knife - Stream"
+  }, {
+    "target": 60,
+    "reward": "Flashbang Grenade - Stream"
+  }, {
+    "target": 90,
+    "reward": "LK24 - Persisted"
+  }],
+  "tasks": [{
+    "id": 1,
+    "description": "Play 3 Matches in MP mode on Highrise Map",
+    "reward": "Points",
+    "rewardQty": 10,
+    "target": 3
+  }, {
+    "id": 2,
+    "description": "Play 5 Matches in MP mode on Highrise Map",
+    "reward": "Points",
+    "rewardQty": 20,
+    "target": 5
+  }, {
+    "id": 3,
+    "description": "Play 10 Matches in MP mode on Highrise Map",
+    "reward": "Points",
+    "rewardQty": 20,
+    "target": 10
+  }, {
+    "id": 4,
+    "description": "Play 15 Matches in MP mode on Highrise Map",
+    "reward": "Points",
+    "rewardQty": 20,
+    "target": 15
+  }]
 }]

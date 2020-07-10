@@ -9,6 +9,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## [0.7.4] - 2020-07-10
+### Added
+* First 3 seasonal tasks for S8
+* Featured tasks for new Highrise map
+* Smoke Bomber tasks leftover from previous set
+
+
 ## [0.7.3] - 2020-06-28
 ### Fixed
 * 'K/D Critical' event used a duplicated ID
@@ -193,7 +200,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 * Anything else that isn't in a later release
 
 
-[Unreleased]: https://github.com/dshoreman/codtracker/compare/v0.7.3...develop
+[Unreleased]: https://github.com/dshoreman/codtracker/compare/v0.7.4...develop
+[0.7.4]: https://github.com/dshoreman/codtracker/compare/v0.7.3...v0.7.4
 [0.7.3]: https://github.com/dshoreman/codtracker/compare/v0.7.2...v0.7.3
 [0.7.2]: https://github.com/dshoreman/codtracker/compare/v0.7.1...v0.7.2
 [0.7.1]: https://github.com/dshoreman/codtracker/compare/v0.7.0...v0.7.1
