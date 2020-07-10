@@ -9,6 +9,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## [0.7.8] - 2020-07-10
+### Fixed
+* 1 match task needs 1 for the target, not 3 -.-
+
+
 ## [0.7.7] - 2020-07-10
 ### Added
 * Missing "Play 1 match" task for Highrise
@@ -215,7 +220,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 * Anything else that isn't in a later release
 
 
-[Unreleased]: https://github.com/dshoreman/codtracker/compare/v0.7.7...develop
+[Unreleased]: https://github.com/dshoreman/codtracker/compare/v0.7.8...develop
+[0.7.8]: https://github.com/dshoreman/codtracker/compare/v0.7.7...v0.7.8
 [0.7.7]: https://github.com/dshoreman/codtracker/compare/v0.7.6...v0.7.7
 [0.7.6]: https://github.com/dshoreman/codtracker/compare/v0.7.5...v0.7.6
 [0.7.5]: https://github.com/dshoreman/codtracker/compare/v0.7.4...v0.7.5
