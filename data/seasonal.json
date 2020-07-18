@@ -681,6 +681,107 @@
     "target": 10
   }]
 }, {
+  "event": "S4",
+  "name": "Frenzy Killer",
+  "end": "2020-08-06 00:00:00",
+  "tasks": [{
+    "id": 1,
+    "description": "Kill 5 Enemies with Trip Mines",
+    "reward": "Credits",
+    "rewardQty": 200,
+    "bpxp": 1000,
+    "target": 5
+  }, {
+    "id": 2,
+    "description": "Kill 20 Enemies with Pistols",
+    "reward": "BY15 - Arctic Digital",
+    "rewardQty": 1,
+    "bpxp": 1000,
+    "target": 20
+  }, {
+    "id": 3,
+    "description": "Kill 20 Enemies with BY15",
+    "reward": "Knife - Arctic Digital",
+    "rewardQty": 1,
+    "bpxp": 2000,
+    "target": 20
+  }, {
+    "id": 4,
+    "description": "Kill 20 Enemies with Arctic.50",
+    "reward": "HG 40  - Arctic Digital",
+    "rewardQty": 1,
+    "bpxp": 2000,
+    "target": 20
+  }, {
+    "id": 5,
+    "description": "Kill 30 Enemies with HG40 equipped with Suppressor",
+    "reward": "Calling Card - Wild Man",
+    "rewardQty": 1,
+    "bpxp": 3000,
+    "target": 30
+  }, {
+    "id": 6,
+    "description": "Kill 30 Enemies with HG40 equipped with Long Barrel and any 2 other attachments (Optics included)",
+    "reward": "KRM 262",
+    "rewardQty": 1,
+    "bpxp": 4000,
+    "target": 30
+  }, {
+    "id": 7,
+    "description": "Kill 20 Enemies with KRM-262",
+    "reward": "Weapon XP Card (500)",
+    "rewardQty": 1,
+    "bpxp": 5000,
+    "target": 20
+  }, {
+    "id": 8,
+    "description": "Kill 20 Enemies with KRM-262 Equipped with Extended Mag",
+    "reward": "KRM-262 - Sight Unseen",
+    "rewardQty": 1,
+    "bpxp": 6000,
+    "target": 20
+  }]
+}, {
+  "event": "S5",
+  "name": "Connoisseur",
+  "end": "2020-08-06 00:00:00",
+  "tasks": [{
+    "id": 1,
+    "description": "Kill 10 Enemies with Scorestreaks in MP matches",
+    "reward": "Credits",
+    "rewardQty": 200,
+    "bpxp": 1000,
+    "target": 10
+  }, {
+    "id": 2,
+    "description": "Win 1 MP Match with perk Hard Wired equipped",
+    "reward": "ATV - Arctic Digital",
+    "rewardQty": 1,
+    "bpxp": 1000,
+    "target": 1
+  }, {
+    "id": 3,
+    "description": "Destroy Scorestreaks with FHJ 5 times in MP matches",
+    "reward": "Avatar - Arctic Captain",
+    "rewardQty": 1,
+    "bpxp": 2000,
+    "target": 5
+  }, {
+    "id": 4,
+    "description": "Kill 15 Enemies with Cold Blooded perk equipped",
+    "reward": "Calling Card - Posted Up",
+    "rewardQty": 1,
+    "bpxp": 4000,
+    "target": 15
+  }, {
+    "id": 5,
+    "description": "Win 5 TDM Matches with Engineer perk equipped",
+    "reward": "Captain - Arctic Blizzard",
+    "rewardQty": 1,
+    "bpxp": 5000,
+    "target": 5
+  }]
+}, {
   "event": "S1",
   "name": "Maximum Efficiency",
   "end": "2020-08-06 00:00:00",
@@ -740,6 +841,32 @@
     "rewardQty": 1,
     "bpxp": 6000,
     "target": 30
+  }]
+}, {
+  "event": "S5",
+  "name": "Stronger Together",
+  "end": "2020-08-06 00:00:00",
+  "tasks": [{
+    "id": 1,
+    "description": "Play 3 Battle Royale matches with friends",
+    "reward": "Weapon XP Card - 100",
+    "rewardQty": 1,
+    "bpxp": 2000,
+    "target": 3
+  }, {
+    "id": 2,
+    "description": "Assist your Teammates 10 times in MP Matches",
+    "reward": "RPD - Arctic Digital",
+    "rewardQty": 1,
+    "bpxp": 4000,
+    "target": 10
+  }, {
+    "id": 3,
+    "description": "Win 5 MP Ranked matches with friends",
+    "reward": "Calling Card - Mercenaries",
+    "rewardQty": 1,
+    "bpxp": 6000,
+    "target": 5
   }]
 }, {
   "event": "S2",
