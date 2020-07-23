@@ -9,6 +9,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## [0.7.11] - 2020-07-23
+### Fixed
+* Duplicate IDs causing Connoisseur to interfere with Stronger Together tasks
+
+
 ## [0.7.10] - 2020-07-22
 ### Added
 * Missing hardpoint task in "Stronger Together" line
