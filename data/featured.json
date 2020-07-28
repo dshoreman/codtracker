@@ -638,4 +638,85 @@
     "rewardQty": 20,
     "target": 15
   }]
+}, {
+  "event": "F4",
+  "name": "Prizefighters",
+  "end": "2020-08-04 00:00:00",
+  "targets": [{
+    "target": 20,
+    "reward": "Clown - Stream"
+  }, {
+    "target": 30,
+    "reward": "Mechanic - Stream"
+  }, {
+    "target": 40,
+    "reward": "Smoke Grenade - Stream"
+  }, {
+    "target": 60,
+    "reward": "Spray - Radical"
+  }, {
+    "target": 80,
+    "reward": "PDW-57 - Sight Unseen"
+  }],
+  "tasks": [{
+    "id": 1,
+    "description": "Kill 3 enemies in Frigid Wastelands in BR",
+    "reward": "Points",
+    "rewardQty": 10,
+    "target": 3
+  }, {
+    "id": 2,
+    "description": "Use vending machine at Black Market once in BR",
+    "reward": "Points",
+    "rewardQty": 8,
+    "target": 1
+  }, {
+    "id": 3,
+    "description": "Collect 5 Robot Parts in Battle Royale",
+    "reward": "Points",
+    "rewardQty": 12,
+    "target": 5
+  }, {
+    "id": 4,
+    "description": "Survive in BR for 20 min (1200 seconds)",
+    "reward": "Points",
+    "rewardQty": 8,
+    "target": 1200
+  }, {
+    "id": 5,
+    "description": "Kill 15 enemies in BR",
+    "reward": "Points",
+    "rewardQty": 10,
+    "target": 15
+  }, {
+    "id": 6,
+    "description": "Open Weapon Supply Boxes 5 times in BR",
+    "reward": "Points",
+    "rewardQty": 8,
+    "target": 5
+  }, {
+    "id": 7,
+    "description": "Travel 300 metres with a Tank in BR",
+    "reward": "Points",
+    "rewardQty": 8,
+    "target": 300
+  }, {
+    "id": 8,
+    "description": "Interact with the Robot once in BR",
+    "reward": "Points",
+    "rewardQty": 10,
+    "target": 1
+  }, {
+    "id": 9,
+    "description": "Obtain an Airdrop in BR once",
+    "reward": "Points",
+    "rewardQty": 10,
+    "target": 1
+  }, {
+    "id": 10,
+    "description": "Play 5 BR matches",
+    "reward": "Points",
+    "rewardQty": 12,
+    "target": 5
+  }]
 }]
