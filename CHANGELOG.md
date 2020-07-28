@@ -11,6 +11,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 * New featured taskset
 * Third (and likely final) batch of Seasonal tasks for S8
 
+### Fixed
+* Dates for S8 seasonal tasks were set to expire 2 days early
+
 
 ## [0.7.11] - 2020-07-23
 ### Fixed
