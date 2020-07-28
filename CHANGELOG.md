@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 ## [Unreleased]
+### Added
+* New featured taskset
+* Third (and likely final) batch of Seasonal tasks for S8
 
 
 ## [0.7.11] - 2020-07-23
