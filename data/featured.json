@@ -639,6 +639,96 @@
     "target": 15
   }]
 }, {
+  "event": "F5",
+  "name": "Days of Summer",
+  "end": "2020-07-08 01:00:00",
+  "targets": [{
+    "target": 30,
+    "reward": "200 Credits"
+  }, {
+    "target": 40,
+    "reward": "SMRS - Barrier Reef"
+  }, {
+    "target": 60,
+    "reward": "Frag Grenade - Water Festival"
+  }, {
+    "target": 90,
+    "reward": "Purifier - H2O"
+  }],
+  "tasks": [{
+    "id": 1,
+    "description": "Play 3 Juggernaut Matches",
+    "reward": "Points",
+    "rewardQty": 5,
+    "target": 3
+  }, {
+    "id": 2,
+    "description": "Play 10 Juggernaut Matches",
+    "reward": "Points",
+    "rewardQty": 10,
+    "target": 10
+  }, {
+    "id": 3,
+    "description": "Kill 30 enemies in Juggernaut matches",
+    "reward": "Points",
+    "rewardQty": 8,
+    "target": 30
+  }, {
+    "id": 4,
+    "description": "Kill 15 enemies on Highrise in MP-Featured",
+    "reward": "Points",
+    "rewardQty": 8,
+    "target": 15
+  }, {
+    "id": 5,
+    "description": "Stay online for 15 min in total",
+    "reward": "Points",
+    "rewardQty": 5,
+    "target": 900
+  }, {
+    "id": 6,
+    "description": "Stay online for 30 min in total",
+    "reward": "Points",
+    "rewardQty": 5,
+    "target": 1800
+  }, {
+    "id": 7,
+    "description": "Stay online for 45 min in total",
+    "reward": "Points",
+    "rewardQty": 8,
+    "target": 2700
+  }, {
+    "id": 8,
+    "description": "Stay online for 60 min in total",
+    "reward": "Points",
+    "rewardQty": 20,
+    "target": 3600
+  }, {
+    "id": 9,
+    "description": "Play 3 Gunfight matches",
+    "reward": "Points",
+    "rewardQty": 10,
+    "target": 3
+  }, {
+    "id": 10,
+    "description": "Play 5 matches with friends on Highrise in MP-Featured",
+    "reward": "Points",
+    "rewardQty": 10,
+    "target": 5
+  }, {
+    "id": 11,
+    "description": "Send 5 XP cards to Friends",
+    "reward": "Points",
+    "rewardQty": 5,
+    "target": 5
+  }, {
+    "id": 12,
+    "description": "Play 5 Kill Confirmed matches",
+    "reward": "Points",
+    "rewardQty": 8,
+    "target": 5
+  }]
+}, {
   "event": "F4",
   "name": "Prizefighters",
   "end": "2020-08-04 00:00:00",
