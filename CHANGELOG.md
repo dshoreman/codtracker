@@ -9,6 +9,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## [0.7.14] - 2020-07-29
+### Fixed
+* New tasks had the wrong end date set
+
+
 ## [0.7.13] - 2020-07-29
 ### Added
 * New 'Days of Summer' featured tasks
