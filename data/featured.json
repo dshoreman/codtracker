@@ -641,7 +641,7 @@
 }, {
   "event": "F5",
   "name": "Days of Summer",
-  "end": "2020-07-08 01:00:00",
+  "end": "2020-08-08 01:00:00",
   "targets": [{
     "target": 30,
     "reward": "200 Credits"
