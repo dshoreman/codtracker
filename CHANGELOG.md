@@ -9,6 +9,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## [0.7.15] - 2020-08-02
+### Added
+* New 'Katana Kill' taskline
+
+
 ## [0.7.14] - 2020-07-29
 ### Fixed
 * New tasks had the wrong end date set
@@ -254,7 +259,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 * Anything else that isn't in a later release
 
 
-[Unreleased]: https://github.com/dshoreman/codtracker/compare/v0.7.13...develop
+[Unreleased]: https://github.com/dshoreman/codtracker/compare/v0.7.14...develop
+[0.7.14]: https://github.com/dshoreman/codtracker/compare/v0.7.13...v0.7.14
 [0.7.13]: https://github.com/dshoreman/codtracker/compare/v0.7.12...v0.7.13
 [0.7.12]: https://github.com/dshoreman/codtracker/compare/v0.7.11...v0.7.12
 [0.7.11]: https://github.com/dshoreman/codtracker/compare/v0.7.10...v0.7.11
