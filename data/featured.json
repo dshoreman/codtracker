@@ -809,4 +809,82 @@
     "rewardQty": 12,
     "target": 5
   }]
+}, {
+  "event": "F6",
+  "name": "Katana Kill",
+  "end": "2020-08-08 01:00:00",
+  "targets": [{
+    "target": 30,
+    "reward": "Spray - Crash"
+  }, {
+    "target": 40,
+    "reward": "Sticky Grenade - Sight Unseen"
+  }, {
+    "target": 60,
+    "reward": "MW11 - Sight Unseen"
+  }, {
+    "target": 90,
+    "reward": "Katana"
+  }],
+  "tasks": [{
+    "id": 1,
+    "description": "Play 10 Frontline matches",
+    "reward": "Points",
+    "rewardQty": 10,
+    "target": 10
+  }, {
+    "id": 2,
+    "description": "Occupy Point 10 times in Hardpoint matches",
+    "reward": "Points",
+    "rewardQty": 8,
+    "target": 10
+  }, {
+    "id": 3,
+    "description": "Play 8 Domination matches",
+    "reward": "Points",
+    "rewardQty": 8,
+    "target": 8
+  }, {
+    "id": 4,
+    "description": "Play 10 MP matches with friends",
+    "reward": "Points",
+    "rewardQty": 12,
+    "target": 10
+  }, {
+    "id": 5,
+    "description": "Place First or MVP in 4 MP matches",
+    "reward": "Points",
+    "rewardQty": 8,
+    "target": 4
+  }, {
+    "id": 6,
+    "description": "Play 30 TDM matches",
+    "reward": "Points",
+    "rewardQty": 10,
+    "target": 30
+  }, {
+    "id": 7,
+    "description": "Kill 5 enemies with operator skills in MP matches",
+    "reward": "Points",
+    "rewardQty": 10,
+    "target": 5
+  }, {
+    "id": 8,
+    "description": "Play 3 Gulag Gunfight matches",
+    "reward": "Points",
+    "rewardQty": 8,
+    "target": 3
+  }, {
+    "id": 9,
+    "description": "Cumulative login for 5 days",
+    "reward": "Points",
+    "rewardQty": 20,
+    "target": 5
+  }, {
+    "id": 10,
+    "description": "Kill 5 enemies with DR-H in any mode",
+    "reward": "Points",
+    "rewardQty": 12,
+    "target": 5
+  }]
 }]

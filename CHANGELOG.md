@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 ## [Unreleased]
+### Added
+* New 'Katana Kill' taskline
 
 
 ## [0.7.14] - 2020-07-29
