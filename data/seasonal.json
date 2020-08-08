@@ -683,7 +683,7 @@
 }, {
   "event": "S7",
   "name": "Finisher",
-  "end": "2020-08-08 01:00:00",
+  "end": "2020-08-12 01:00:00",
   "tasks": [{
     "id": 1,
     "description": "Kill 5 enemies in MP matches as Outrider Arctic",
@@ -716,7 +716,7 @@
 }, {
   "event": "S8",
   "name": "Perk Prodigy",
-  "end": "2020-08-08 00:00:00",
+  "end": "2020-08-12 01:00:00",
   "tasks": [{
     "id": 1,
     "description": "Kill 10 enemies in MP matches with Vulture Perk equipped",
@@ -763,7 +763,7 @@
 }, {
   "event": "S4",
   "name": "Frenzy Killer",
-  "end": "2020-08-08 00:00:00",
+  "end": "2020-08-12 01:00:00",
   "tasks": [{
     "id": 1,
     "description": "Kill 5 Enemies with Trip Mines",
@@ -824,7 +824,7 @@
 }, {
   "event": "S5",
   "name": "Connoisseur",
-  "end": "2020-08-08 00:00:00",
+  "end": "2020-08-12 01:00:00",
   "tasks": [{
     "id": 1,
     "description": "Kill 10 Enemies with Scorestreaks in MP matches",
@@ -864,7 +864,7 @@
 }, {
   "event": "S1",
   "name": "Maximum Efficiency",
-  "end": "2020-08-08 00:00:00",
+  "end": "2020-08-12 01:00:00",
   "tasks": [{
     "id": 1,
     "description": "Kill 20 Enemies in MP matches",
@@ -925,7 +925,7 @@
 }, {
   "event": "S6",
   "name": "Stronger Together",
-  "end": "2020-08-08 00:00:00",
+  "end": "2020-08-12 01:00:00",
   "tasks": [{
     "id": 1,
     "description": "Play 3 Battle Royale matches with friends",
@@ -958,7 +958,7 @@
 }, {
   "event": "S2",
   "name": "Master Operator",
-  "end": "2020-08-08 00:00:00",
+  "end": "2020-08-12 01:00:00",
   "tasks": [{
     "id": 1,
     "description": "Use Gravity Spikes operator skill 10 times in MP matches",
@@ -991,7 +991,7 @@
 }, {
   "event": "S3",
   "name": "Survival of the Fittest",
-  "end": "2020-08-08 00:00:00",
+  "end": "2020-08-12 01:00:00",
   "tasks": [{
     "id": 1,
     "description": "Play 3 BR Matches",
