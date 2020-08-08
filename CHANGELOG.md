@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 ## [Unreleased]
+
+
+## [0.7.17] - 2020-08-08
+### Added
+* New set of featured tasks "Now or Never"
+
+
 ## [0.7.16] - 2020-08-08
 ### Changed
 * Extended seasonal and featured tasks that previously ended today
@@ -262,7 +269,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 * Anything else that isn't in a later release
 
 
-[Unreleased]: https://github.com/dshoreman/codtracker/compare/v0.7.16...develop
+[Unreleased]: https://github.com/dshoreman/codtracker/compare/v0.7.17...develop
+[0.7.17]: https://github.com/dshoreman/codtracker/compare/v0.7.16...v0.7.17
 [0.7.16]: https://github.com/dshoreman/codtracker/compare/v0.7.15...v0.7.16
 [0.7.15]: https://github.com/dshoreman/codtracker/compare/v0.7.14...v0.7.15
 [0.7.14]: https://github.com/dshoreman/codtracker/compare/v0.7.13...v0.7.14
