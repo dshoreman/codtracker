@@ -887,4 +887,94 @@
     "rewardQty": 12,
     "target": 5
   }]
+}, {
+  "event": "F7",
+  "name": "Now or Never",
+  "end": "2020-08-15 01:00:00",
+  "targets": [{
+    "target": 40,
+    "reward": "5x Weapon XP Card - 100"
+  }, {
+    "target": 60,
+    "reward": "5x Weapon XP Card - 300"
+  }, {
+    "target": 80,
+    "reward": "DL-Q33 - Stream"
+  }, {
+    "target": 90,
+    "reward": "Knife - Nuclear Fallout"
+  }],
+  "tasks": [{
+    "id": 1,
+    "description": "Play 1 Gunfight Match on the map Gulag",
+    "reward": "Points",
+    "rewardQty": 10,
+    "target": 1
+  }, {
+    "id": 2,
+    "description": "Kill 10 Enemies in Gunfight Matches on the map Gulag",
+    "reward": "Points",
+    "rewardQty": 10,
+    "target": 10
+  }, {
+    "id": 3,
+    "description": "Play 3 MP Ranked Matches",
+    "reward": "Points",
+    "rewardQty": 15,
+    "target": 3
+  }, {
+    "id": 4,
+    "description": "Play 3 Matches in MP mode on Highrise map",
+    "reward": "Points",
+    "rewardQty": 10,
+    "target": 3
+  }, {
+    "id": 5,
+    "description": "Play 3 CTF Matches",
+    "reward": "Points",
+    "rewardQty": 15,
+    "target": 3
+  }, {
+    "id": 6,
+    "description": "Kill 5 Enemies in BR",
+    "reward": "Points",
+    "rewardQty": 10,
+    "target": 5
+  }, {
+    "id": 7,
+    "description": "Obtain Airdrop in BR once",
+    "reward": "Points",
+    "rewardQty": 10,
+    "target": 1
+  }, {
+    "id": 8,
+    "description": "Play 3 Kill Confirmed Matches",
+    "reward": "Points",
+    "rewardQty": 15,
+    "target": 3
+  }, {
+    "id": 9,
+    "description": "Use Shock RC Car 5 Times in MP matches",
+    "reward": "Points",
+    "rewardQty": 10,
+    "target": 5
+  }, {
+    "id": 10,
+    "description": "Land in Sanitarium Twice",
+    "reward": "Points",
+    "rewardQty": 10,
+    "target": 2
+  }, {
+    "id": 11,
+    "description": "Survive in Battle Royale for 20 Minutes",
+    "reward": "Points",
+    "rewardQty": 10,
+    "target": 1200
+  }, {
+    "id": 12,
+    "description": "Send 5 XP Cards to friends",
+    "reward": "Points",
+    "rewardQty": 5,
+    "target": 5
+  }]
 }]
